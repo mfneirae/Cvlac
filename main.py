@@ -17,5 +17,5 @@ my_url = \
 'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000343838'
 import eventos
 import pubeven
-
+import pubarti
 print ("Done! :]")
