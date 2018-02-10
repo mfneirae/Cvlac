@@ -38,15 +38,23 @@ for a in range(0,len(containers)):
         pass
 containerb = containers[all]
 container = containerb.findAll("table")
-f = open ("./Resultados/Actividades.csv", "w")
+f = open ("./Resultados/Publicaciones_Eventos.csv", "w")
 headers = "Tipo_Producto; \
-    Nombre_Producto_Asociado;\
-    Evento; \
-    Año; \
+    Nombre_Producto;\
+    ISBN/ISSN; \
+    Tipo_Obra; \
+    Publicado_en; \
     País; \
-    Ciudad; \
-    Financiación; \
-    Observaciones\n"
+    Año; \
+    Idioma; \
+    Volumen; \
+    Página; \
+    Nombre_del_Capítulo; \
+    Carácter; \
+    Idioma_Destino; \
+    Entidad; \
+    Número/Código_Registro; \
+    Observaciones_Extra\n"
 f.write(headers)
 for x in range(0, len(container)):
     cont = container[x]
@@ -54,9 +62,9 @@ for x in range(0, len(container)):
     index1 = info_evento.find("Nombre del evento:") + 18
     index2 = info_evento.find("Tipo de evento:")
     NombreEvento = info_evento[index1:index2]
-    index1 = info_evento.find("Tipo de evento:") + 15
-    index2 = info_evento.find("Ámbito:")
-    TipoEvento = info_evento[index1:index2]
+    index1 = info_evento.find("Tipo de producto:") + 15
+    index2 = info_evento.find(") -") + 1
+    Tipopub = info_evento[index1:index2]
     index1 = info_evento.find("Realizado el:") + 13
     index2 = index1 + 4
     AnoEvento = info_evento[index1:index2]
@@ -70,13 +78,21 @@ for x in range(0, len(container)):
         index1 = prod.find("Nombre del producto:") + 20
         index2 = prod.find("Tipo de producto:")
         NombreProducto = prod[index1:index2]
-        f.write(TipoEvento.strip() + ";" \
+        f.write(Tipopub.strip() + ";" \
         + NombreProducto.strip().replace(";" , "|") + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
         + NombreEvento.strip().replace(";" , "|") + ";" \
+        + LugarEvento.strip().replace(";" , "|") + ";" \
         + AnoEvento.strip() + ";" \
         + "-" + ";" \
-        + LugarEvento.strip().replace(";" , "|") + ";" \
-        + "Sin Información" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
         + "-" \
         + "\n")
     p = 0
