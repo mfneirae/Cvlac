@@ -28,11 +28,11 @@ page_soup = soup(page_html,"html.parser")
 containers = page_soup.findAll("table")
 for a in range(0,len(containers)):
     buscaeventos = containers[a].h3
-    print(buscaeventos)
+    #print(buscaeventos)
     try:
         if buscaeventos.text == "Eventos científicos":
             all = a
-            print(all)
+            #print(all)
             break
     except AttributeError:
         pass
@@ -40,21 +40,21 @@ containerb = containers[all]
 container = containerb.findAll("table")
 f = open ("./Resultados/Publicaciones_Eventos.csv", "w")
 headers = "Tipo_Producto; \
-    Nombre_Producto;\
-    ISBN/ISSN; \
-    Tipo_Obra; \
-    Publicado_en; \
-    País; \
-    Año; \
-    Idioma; \
-    Volumen; \
-    Página; \
-    Nombre_del_Capítulo; \
-    Carácter; \
-    Idioma_Destino; \
-    Entidad; \
-    Número/Código_Registro; \
-    Observaciones_Extra\n"
+Nombre_Producto;\
+ISBN/ISSN; \
+Tipo_Obra; \
+Publicado_en; \
+País; \
+Año; \
+Idioma; \
+Volumen; \
+Página; \
+Nombre_del_Capítulo; \
+Carácter; \
+Idioma_Destino; \
+Entidad; \
+Número/Código_Registro; \
+Observaciones_Extra\n"
 f.write(headers)
 for x in range(0, len(container)):
     cont = container[x]
@@ -62,12 +62,11 @@ for x in range(0, len(container)):
     index1 = info_evento.find("Nombre del evento:") + 18
     index2 = info_evento.find("Tipo de evento:")
     NombreEvento = info_evento[index1:index2]
-    index1 = info_evento.find("Tipo de producto:") + 15
-    index2 = info_evento.find(") -") + 1
-    Tipopub = info_evento[index1:index2]
     index1 = info_evento.find("Realizado el:") + 13
     index2 = index1 + 4
     AnoEvento = info_evento[index1:index2]
+    if AnoEvento == ",&nbsp":
+        AnoEvento = "-"
     index1 = info_evento.find(" \xa0\r\n                                            en ") + 51
     index2 = info_evento.find(" \xa0 -  \xa0\r\n")
     LugarEvento = info_evento[index1:index2]
@@ -78,6 +77,11 @@ for x in range(0, len(container)):
         index1 = prod.find("Nombre del producto:") + 20
         index2 = prod.find("Tipo de producto:")
         NombreProducto = prod[index1:index2]
+        index1 = prod.find("Tipo de producto:") + 17
+        index2 = prod.find(") -") + 1
+        Tipopub = prod[index1:index2]
+        if Tipopub == "Producción bibliográfica - Trabajos en eventos (Capítulos de memoria)":
+            Tipopub = "Capítulos de memoria"
         f.write(Tipopub.strip() + ";" \
         + NombreProducto.strip().replace(";" , "|") + ";" \
         + "-" + ";" \

@@ -1,4 +1,4 @@
-Tipo_Producto;     Nombre_Producto_Asociado;    Evento;     Año;     País;     Ciudad;     Financiación;     Observaciones
+Tipo_Producto; Nombre_Producto_Asociado;Evento; Año; País; Ciudad; Financiación; Observaciones
 Congreso;A Multi-Class Kernel Alignment Method For Image Collection Summarization;14TH IBEROAMERICAN CONGRESS ON PATTERN RECOGNITION CIARP 2009;2009;-;POPAYÁN;Sin Información;-
 Congreso;Kernel-Based Visualization of Large Collections of Medical Images Involving Domain Knowledge;X CONGRESO INTERNACIONAL EN INTERACCION PERSONA ORDENADOR;,;-;POPAYÁN;Sin Información;-
 Otro;A Latent Semantic Approach;CONFERENCE ON MULTILINGUAL AND MULTIMODAL INFORMATION ACCESS EVALUATION;2010;-;Padua;Sin Información;-

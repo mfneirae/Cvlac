@@ -28,11 +28,11 @@ page_soup = soup(page_html,"html.parser")
 containers = page_soup.findAll("table")
 for a in range(0,len(containers)):
     buscaeventos = containers[a].h3
-    print(buscaeventos)
+    #print(buscaeventos)
     try:
         if buscaeventos.text == "Eventos científicos":
             all = a
-            print(all)
+            #print(all)
             break
     except AttributeError:
         pass
@@ -40,13 +40,13 @@ containerb = containers[all]
 container = containerb.findAll("table")
 f = open ("./Resultados/Actividades.csv", "w")
 headers = "Tipo_Producto; \
-    Nombre_Producto_Asociado;\
-    Evento; \
-    Año; \
-    País; \
-    Ciudad; \
-    Financiación; \
-    Observaciones\n"
+Nombre_Producto_Asociado;\
+Evento; \
+Año; \
+País; \
+Ciudad; \
+Financiación; \
+Observaciones\n"
 f.write(headers)
 for x in range(0, len(container)):
     cont = container[x]
@@ -60,6 +60,8 @@ for x in range(0, len(container)):
     index1 = info_evento.find("Realizado el:") + 13
     index2 = index1 + 4
     AnoEvento = info_evento[index1:index2]
+    if AnoEvento == ",":
+        AnoEvento = "-"
     index1 = info_evento.find(" \xa0\r\n                                            en ") + 51
     index2 = info_evento.find(" \xa0 -  \xa0\r\n")
     LugarEvento = info_evento[index1:index2]
