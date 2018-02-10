@@ -12,11 +12,10 @@
 # #############################################################################
 #
 #
+from main import my_url
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
-my_url = \
-'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000343838'
 uClient = uReq(my_url)
 page_html = uClient.read()
 uClient.close()
@@ -39,7 +38,7 @@ for a in range(0,len(containers)):
         pass
 containerb = containers[all]
 container = containerb.findAll("table")
-f = open ("tijat5.csv", "w")
+f = open ("./Resultados/Actividades.csv", "w")
 headers = "Tipo_Evento; Nombre_Producto_Asociado; Evento; Año; País; Ciudad; Financiación; Observaciones\n"
 f.write(headers)
 for x in range(0, len(container)):
@@ -54,7 +53,7 @@ for x in range(0, len(container)):
     index1 = info_evento.find("Realizado el:") + 13
     index2 = index1 + 4
     AnoEvento = info_evento[index1:index2]
-    index1 = info_evento.find(" \xa0\r\n                                                en ") + 51
+    index1 = info_evento.find(" \xa0\r\n                                            en ") + 51
     index2 = info_evento.find(" \xa0 -  \xa0\r\n")
     LugarEvento = info_evento[index1:index2]
     b_productos = cont.findAll("td")
@@ -64,10 +63,9 @@ for x in range(0, len(container)):
             index1 = prod.find("Nombre del producto:") + 20
             index2 = prod.find("Tipo de producto:")
             NombreProducto = prod[index1:index2]
-            f.write(TipoEvento.strip() + ";" + NombreProducto.strip().replace(";" , "|") \
-            + ";" + NombreEvento.strip().replace(";" , "|") + ";" + AnoEvento.strip() \
-            #+ ";" + "-" + ";" + LugarEvento.strip().replace(";" , "|") + ";" \
-            #+ "Sin Información" + ";" + "-" +
-            + "\n")
+            f.write(TipoEvento.strip() + ";" + NombreProducto.strip().replace(";" , "|")\
+            + ";" +NombreEvento.strip().replace(";" , "|") + ";" + AnoEvento.strip() + ";" \
+            + "-" + ";" + LugarEvento.strip().replace(";" , "|") + ";" + "Sin Información" \
+            + ";" +"-" + "\n")
     p = 0
 f.close()
