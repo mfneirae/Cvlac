@@ -41,24 +41,7 @@ if all != 0:
     pass
     containerb = containers[all]
     container = containerb.findAll("table")
-    f = open ("./Resultados/Publicaciones.csv", "w")
-    headers = "Tipo_Producto; \
-    Nombre_Producto;\
-    ISBN/ISSN; \
-    Tipo_Obra; \
-    Publicado_en; \
-    País; \
-    Año; \
-    Idioma; \
-    Volumen; \
-    Página; \
-    Nombre_del_Capítulo; \
-    Carácter; \
-    Idioma_Destino; \
-    Entidad; \
-    Número/Código_Registro; \
-    Observaciones_Extra\n"
-    f.write(headers)
+    f = open ("./Resultados/Publicaciones.csv", "a")
     for x in range(0, len(container)):
         cont = container[x]
         info_evento = cont.td.text

@@ -1,4 +1,4 @@
-Tipo_Producto;     Nombre_Producto_Asociado;    Evento;     Año;     País;     Ciudad;     Financiación;     Observaciones
+Tipo_Producto; Nombre_Producto_Asociado;Evento; Año; País; Ciudad; Financiación; Observaciones
 Simposio;On the Use of the SEMAT Kernel within a Software Engineering Course;Latin American Software Engineering Symposium LASES 2014;2014;-;BARRANQUILLA;Sin Información;-
 Otro;How Distributed Version Control Systems impact Open Source Software Projects;The 9th Working Conference on Mining Software Repositories, MSR 2012;2012;-;;Sin Información;-
 Otro;Mining Source Code Descriptions from Developer Communications;2012 IEEE 20th International Conference on Program Comprehension (ICPC 2012);2012;-;Passau;Sin Información;-

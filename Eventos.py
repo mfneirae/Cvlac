@@ -41,16 +41,7 @@ if all != 0:
     pass
     containerb = containers[all]
     container = containerb.findAll("table")
-    f = open ("./Resultados/Actividades.csv", "w")
-    headers = "Tipo_Producto; \
-    Nombre_Producto_Asociado;\
-    Evento; \
-    Año; \
-    País; \
-    Ciudad; \
-    Financiación; \
-    Observaciones\n"
-    f.write(headers)
+    f = open ("./Resultados/Actividades.csv", "a")
     for x in range(0, len(container)):
         cont = container[x]
         info_evento = cont.td.text

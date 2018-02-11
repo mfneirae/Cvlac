@@ -12,9 +12,13 @@
 # #############################################################################
 #
 #
-
+from openpyxl import load_workbook
+#Definitions
 my_url = \
 'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001333865'
+wb = load_workbook('./Base.xlsx')
+
+import init
 
 import eventos
 import pubeven

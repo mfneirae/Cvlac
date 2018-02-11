@@ -1,14 +1,14 @@
-Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
-Capítulos de memoria;On the Use of the SEMAT Kernel within a Software Engineering Course;-;-;Latin American Software Engineering Symposium LASES 2014;BARRANQUILLA;2014;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;How Distributed Version Control Systems impact Open Source Software Projects;-;-;The 9th Working Conference on Mining Software Repositories, MSR 2012;;2012;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;Mining Source Code Descriptions from Developer Communications;-;-;2012 IEEE 20th International Conference on Program Comprehension (ICPC 2012);Passau;2012;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;Towards the Automatic Extraction of Structural Business Rules from Legacy Databases;-;-;The 19th Working Conference on Reverse Engineering;Kingston;2012;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;DevMeter: una Herramienta que mide la Contribución de los Desarrolladores;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;SeeIT 3D: un plugin de Eclipse para visualizar y comprender código fuente;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;On the Use of Automated Text Summarization Techniques for Summarizing Source Code;-;-;17th Working Conference on Reverse Engineering;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;Summarizing Source Code Artifacts;-;-;Encuentro Nacional de Investigación y Desarrollo, ENIP 2010;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;Improving Traceability Link Recovery Methods through Software Artifact Summarization;-;-;6th International Workshop on Traceability in Emerging Forms of Software Engineering;Hawaii;2011;-;-;-;-;-;-;-;-;-
-Capítulos de memoria;Analyzing Human Summaries of Source Code Artifacts;-;-;XXXVII Conferencia Latinoamericana de Informática;Quito;2011;-;-;-;-;-;-;-;-;-
+Tipo_Producto; Nombre_Producto;ISBN/ISSN; Tipo_Obra; Publicado_en; País; Año; Idioma; Volumen; Página; Nombre_del_Capítulo; Carácter; Idioma_Destino; Entidad; Número/Código_Registro; Observaciones_Extra
+Capítulos en Memorias de Congresos;On the Use of the SEMAT Kernel within a Software Engineering Course;-;-;Latin American Software Engineering Symposium LASES 2014;BARRANQUILLA;2014;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;How Distributed Version Control Systems impact Open Source Software Projects;-;-;The 9th Working Conference on Mining Software Repositories, MSR 2012;;2012;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;Mining Source Code Descriptions from Developer Communications;-;-;2012 IEEE 20th International Conference on Program Comprehension (ICPC 2012);Passau;2012;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;Towards the Automatic Extraction of Structural Business Rules from Legacy Databases;-;-;The 19th Working Conference on Reverse Engineering;Kingston;2012;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;DevMeter: una Herramienta que mide la Contribución de los Desarrolladores;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;SeeIT 3D: un plugin de Eclipse para visualizar y comprender código fuente;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;On the Use of Automated Text Summarization Techniques for Summarizing Source Code;-;-;17th Working Conference on Reverse Engineering;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;Summarizing Source Code Artifacts;-;-;Encuentro Nacional de Investigación y Desarrollo, ENIP 2010;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;Improving Traceability Link Recovery Methods through Software Artifact Summarization;-;-;6th International Workshop on Traceability in Emerging Forms of Software Engineering;Hawaii;2011;-;-;-;-;-;-;-;-;-
+Capítulos en Memorias de Congresos;Analyzing Human Summaries of Source Code Artifacts;-;-;XXXVII Conferencia Latinoamericana de Informática;Quito;2011;-;-;-;-;-;-;-;-;-
 Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
 Artículo de revista;On the Analysis of Human and Automatic Summaries of Source Code;0717-5000;-;Clei Electronic Journal;-;2012;Sin Información;15;1 a ;-;-;-;-;-;-
 Artículo de revista;Efficacy of a computer-based cognitive training program in older people with subjective memory complaints: a randomized study;0020-7454;-;International Journal Of Neuroscience;-;2017;Sin Información;N/A;1 a 9;-;-;-;-;-;-
