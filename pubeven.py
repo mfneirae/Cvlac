@@ -36,12 +36,12 @@ for a in range(0,len(containers)):
             break
     except AttributeError:
         pass
-        
+
 if all != 0:
     pass
     containerb = containers[all]
     container = containerb.findAll("table")
-    f = open ("./Resultados/Publicaciones_Eventos.csv", "w")
+    f = open ("./Resultados/Publicaciones.csv", "w")
     headers = "Tipo_Producto; \
     Nombre_Producto;\
     ISBN/ISSN; \
@@ -84,7 +84,7 @@ if all != 0:
             index2 = prod.find(") -") + 1
             Tipopub = prod[index1:index2]
             if Tipopub == "Producción bibliográfica - Trabajos en eventos (Capítulos de memoria)":
-                Tipopub = "Capítulos de memoria"
+                Tipopub = "Capítulos en Memorias de Congresos"
             f.write(Tipopub.strip().replace("\n","") + ";" \
             + NombreProducto.replace("\r\n","").replace("\n","").strip().replace(";" , "|") + ";" \
             + "-".replace("\n","") + ";" \

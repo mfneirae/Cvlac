@@ -1,4 +1,18 @@
 Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
+Capítulos de memoria;On the Use of the SEMAT Kernel within a Software Engineering Course;-;-;Latin American Software Engineering Symposium LASES 2014;BARRANQUILLA;2014;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;How Distributed Version Control Systems impact Open Source Software Projects;-;-;The 9th Working Conference on Mining Software Repositories, MSR 2012;;2012;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;Mining Source Code Descriptions from Developer Communications;-;-;2012 IEEE 20th International Conference on Program Comprehension (ICPC 2012);Passau;2012;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;Towards the Automatic Extraction of Structural Business Rules from Legacy Databases;-;-;The 19th Working Conference on Reverse Engineering;Kingston;2012;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;DevMeter: una Herramienta que mide la Contribución de los Desarrolladores;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;SeeIT 3D: un plugin de Eclipse para visualizar y comprender código fuente;-;-;XXVI Conferencia Latinoamericana de Informatica;Asunción;2010;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;On the Use of Automated Text Summarization Techniques for Summarizing Source Code;-;-;17th Working Conference on Reverse Engineering;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;Summarizing Source Code Artifacts;-;-;Encuentro Nacional de Investigación y Desarrollo, ENIP 2010;BOGOTÁ, D.C.;2010;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;Improving Traceability Link Recovery Methods through Software Artifact Summarization;-;-;6th International Workshop on Traceability in Emerging Forms of Software Engineering;Hawaii;2011;-;-;-;-;-;-;-;-;-
+Capítulos de memoria;Analyzing Human Summaries of Source Code Artifacts;-;-;XXXVII Conferencia Latinoamericana de Informática;Quito;2011;-;-;-;-;-;-;-;-;-
+Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
+Artículo de revista;On the Analysis of Human and Automatic Summaries of Source Code;0717-5000;-;Clei Electronic Journal;-;2012;Sin Información;15;1 a ;-;-;-;-;-;-
+Artículo de revista;Efficacy of a computer-based cognitive training program in older people with subjective memory complaints: a randomized study;0020-7454;-;International Journal Of Neuroscience;-;2017;Sin Información;N/A;1 a 9;-;-;-;-;-;-
+Libros;Research Topics In Software Evolution And Maintenance;978-958-761-162-5;-;Universidad Nacional De Colombia Sede Bogota;-;2012;Sin Información;-;-;-;-;-;-;-;-
 Capítulos de Libros;-;978-958-443-666-5;-;Tendencias En Ingeniería De Software E Inteligencia Artificial, Volumen 2. Isbn: 978-958-44-3666-5;-;2008;Sin Información;-;-;Actividades Asociadas al Modelo Evolutivo de Desarrollo de Software;-;-;-;-;-
 Capítulos de Libros;-;9789587750805;-;Software Engineering: Methods, Modeling And Teaching;-;2014;Sin Información;-;-;On the Use of the SEMAT Kernel within a Software Engineering Course;-;-;-;-;-
 Capítulos de Libros;-;978-1-4673-3092-3;-;The 21st Ieee International Conference On Program Comprehension, Icpc 2013;-;2013;Sin Información;-;-;Automatic Generation of Natural Language Summaries for Java Classes;-;-;-;-;-
@@ -17,3 +31,4 @@ Capítulos de Libros;-;978-958-44-8153-5;-;Tendencias En Ingeniería De Software E
 Capítulos de Libros;-;978-958-44-5820-9;-;Proceeding In Tisia'09: Tendencias En Ingeniería De Software E Inteligencia Artificial;-;2009;Sin Información;-;-;La Estructura Social de la Corrección de Bugs;-;-;-;-;-
 Capítulos de Libros;-;978-958-8166-43-8;-;Memorias Del Iv Congreso Colombiano De Computación - 4ccc 2009;-;2009;Sin Información;-;-;Aplicación de un Framework de Evaluación a Plugins de Eclipse para Visualización de Software;-;-;-;-;-
 Capítulos de Libros;-;978-958-44-1344-4;-;Tendencias Ingeniería De Software E Inteligencia Artificial Volumen 1;-;2007;Sin Información;-;-;Metodologías Ágiles de Desarrollo: Un Panorama General;-;-;-;-;-
+Productos Tecnológicos;SeeIT 3D;-;-;-;-;2009;-;-;-;-;-;-;Sin Información;;-
