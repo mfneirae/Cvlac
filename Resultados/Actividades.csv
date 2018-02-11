@@ -1,91 +1,11 @@
-Tipo_Producto; Nombre_Producto_Asociado;Evento; Año; País; Ciudad; Financiación; Observaciones
-Otro;STUDY OF THE BEHAVIOUR OF THE CORONA CURRENT UNDER CONTROLLED ENVIRONMENTAL CONDITIONS;X SIPDA International Symposium on Lightning Protection;2009;-;Curitiba   - Curitiba, Brasil;Sin Información;-
-Otro;NOISE REDUCTION OF MEASURED LIGHTNING ELECTRIC FIELDS SIGNALS USING THE WAVELET TRANSFORM;X SIPDA International Symposium on Lightning Protection;2009;-;Curitiba   - Curitiba, Brasil;Sin Información;-
-Simposio;Time-domain analysis of an electromagnetic lens for a Half Impulse Radiating Antenna;2010 Asia-Pacific Symposium on Electromagnetic Compatibility;2010;-;Beijing, China   - Beijing, China;Sin Información;-
-Congreso;Analysis of wavelet based denoising methods applied to measured lightning electric fields;2010 30th International Conference on Lightning Protection (ICLP);2010;-;Cagliari   - Cagliari, Italia;Sin Información;-
-Congreso;Wideband experimental characterization of differential antennas;2012 6th European Conference on Antennas and Propagation (EUCAP);2012;-;prague   - Prague;Sin Información;-
-Congreso;Striking Distance of Vulnerable Points to be struck by Lightning in Complex Structures;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Comparison Between the Signatures of Lightning Electric Field Measured in Colombia and that in Sri Lanka;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Modeling of metal - oxide distribution surge arresters with an intentionally connected series gap;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Analysis of a Lightning accident Considering a Modified Human Body Model;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Understanding the point discharge DC current produced by corona needles;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Improvement of the Output Current Response of an Electrostatic Fast Impulse Current Generator;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Experimental Analysis of a Parallel Antenna Used in Lightning Electric Measurements;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
-Congreso;Design of a switched oscillator for IEMI susceptibility testing;Design of a switched oscillator for IEMI susceptibility testing;2013;-;Denver   - Denver, Co, USA;Sin Información;-
-Congreso;Design and simulation of a coaxial exponential transmission line for a Half Impulse Radiating Antenna;2011 XXXth URSI General Assembly and Scientific Symposium;2011;-;Estambul   - Estambul, Turquia;Sin Información;-
-Simposio;STUDY OF THE BEHAVIOUR OF THE CORONA CURRENT UNDER CONTROLLED ENVIRONMENTAL CONDITIONS;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
-Simposio;NOISE REDUCTION OF MEASURED LIGHTNING ELECTRIC FIELDS SIGNALS USING THE WAVELET TRANSFORM;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
-Simposio;Noise Reduction of Measured Lightning Electric Field Signals using the Wavelet Transform;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
-Simposio;Design Of A Multigap Loop (Mgl) Sensor For Lightning Magnetic Field Measurement;2011 International Symposium on Lightning Protection (XI SIPDA);2011;-;Forlateza   - Fortaleza, Brasil;Sin Información;-
-Simposio;Influence of the wind for positive corona in a single-needle-electrode on thunderstorm-like conditions;2011 International Symposium on Lightning Protection (XI SIPDA);2011;-;Forlateza   - Fortaleza, Brasil;Sin Información;-
-Congreso;Behavior of corona current and atmospheric variables under thunderstorm conditions: Thunderstorm prediction algorithm;2012 International Conference on Lightning protection (ICLP);2012;-;Vienna;Sin Información;-
-Congreso;Corona current and space charge during a thunderstorm;2012 International Conference on Lightning protection (ICLP);2012;-;Vienna;Sin Información;-
-Congreso;Electric field sensors effect on pulsed power measurements;2013 13th IEEE Pulsed Power Conference (PPC);2013;-;Tlaxcala   - San Francisco, CA, USA;Sin Información;-
-Congreso;Spark gap resistance for an electrostatic discharge at different pressures;2008 IEEE 35th International Conference on Plasma Science;2008;-;Karlstadt   - Karlsruhe, Alemania;Sin Información;-
-Simposio;Study of a sensor for measurements of high amplitude-Fast rise time currents in a coaxial cable;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
-Simposio;Theorical and experimental behavior of corona needles sources;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
-Simposio;Voltage - Current characteristics of semiconductor glazes obtained with a high impedance current source;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
-Simposio;Corona current generation on a coaxial configuration with low potentials;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
-Otro;Breakdown effect on long gaps under switching impulses statiscal variation;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
-Otro;Behaviour of the shoe-to-earth contact under lightning like current impulses;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
-Otro;Lightning attachment to common structures: is the rolling sphere method really adequate?;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
-Otro;Behaviour of the shoe-to-earth contact under lightning like current impulses;29th International Conference on Lightning Protection;2008;-;IBAGUÉ;Sin Información;-
-Otro;Lightning attachment to common structures: is the rolling sphere method really adequate?;29th International Conference on Lightning Protection;2008;-;IBAGUÉ;Sin Información;-
-Congreso;Radiating Broad- Band pulse generator with Corona charging mechanism;European electromagnetics (EUROEM 2008);2008;-;Lausanne   - Lausanne, Suiza;Sin Información;-
-Congreso;Investigation on the transmisión of a DC current through a space gap;European electromagnetics (EUROEM 2008);2008;-;Lausanne   - Lausanne, Suiza;Sin Información;-
-Simposio;Corona Charged Subnanosecond Impulse Generator;The 20th International Zurich Symposium on Electromagnetic Compatibility;2009;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Design and Construction of a Compact Electrostatic Fast Impulse Current Generator;2005 IEEE Pulsed Power Conference;2005;-;BOGOTÁ, D.C.;Sin Información;-
-Congreso;Design and Simulation of an Electromagnetic Lens for a Half Impulse Radiating Antenna;2009 International Conference on Electromagnetics in Advanced Applications ICEAA '09;2009;-;Torino   - Torino, Italia;Sin Información;-
-Congreso;Design and Construction of a Corona Charged High Power Impulse Generator;2009 Pulsed Power Conference, PPC '09;2009;-;Washington DC   - Washington DC, USA;Sin Información;-
-Simposio;Corona Charged subnanosecond impulse generator;2009 20th International Zurich Symposium on Electromagnetic Compatibility;2009;-;Zurich   - Zurich, Switzerland;Sin Información;-
-Simposio;Comparison of The Breakdown Voltage of Two Insulating Columns Using The Simple Stress Method;VI International Symposium on Lightning Protection VI Sipda, Santos Brazil, 19 - 23 Nov 323 - 328.;2001;-;Santos Brasil;Sin Información;-
-Otro;Comparación de la tensión disruptiva de dos columnas aislantes utilizando el método del esfuerzo simple;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
-Otro;Caracterización de los varistores mediante una fuente de corriente de muy alta impedancia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
-Otro;Degradación de descargadores de sobretensión de óxido de metálico tipo distribución. Estudio de caso: Vereda el trigo, Cundinamarca, Colombia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
-Otro;Análisis de Sobretensiones y Energía Disipada en los Descargadores de Sobretensión en una Línea de Prueba Debido a Voltajes Inducidos por Descargas Subsecuentes del Rayo;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
-Otro;Análisis Estadístico de Señales Inducidas por Descargas Subsecuentes del Rayo en una Línea de Prueba ubicada en La Palma, Cundinamarca, Colombia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
-Otro;Determinación del Voltaje Representativo en el Método del Esfuerzo Simple;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
-Otro;Medición y Reglamentación sobre Exposición a los Campos Eléctricos y Magnéticos de Extra Baja Frecuencia en Subestaciones Eléctricas Colombianas;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
-Otro;Modelamiento en Atp-Models de Varistores y Tubos de Gas como Elementos de Protección en Baja Tensión;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
-Otro;Ecuación para Corrección de la Disrupción del Aire en Bogotá con Condiciones Controladas de Temperatura y Humedad para Ondas Tipo Maniobra en un Arreglo Punta-Placa;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
-Simposio;Breakdown characteristics of 500 mm and 250 mm long sparks over insulating surfaces;, Eleventh International Symposium on High-Voltage Engineering ISH 99,;1999;-;London UK;Sin Información;-
-Simposio;Las Fallas de los transformadores de distribucion, un estudio de casos y Controles;Simposio Nacional CIDET;1997;-;BOGOTÁ, D.C.;Sin Información;-
-Simposio;The single stress method to Study the Physical Properties of Discharge Procfesses in Air;10th International Simposium on High Voltage Engineering ISH 97;1997;-;Montreal;Sin Información;-
-Otro;The Principle of Operation of a single Electrostatic field Measuring Device;the 8th International Conference on Electrostatics;1997;-;Poiters;Sin Información;-
-Otro;Comparison of the Breakdown Probability of two sphere-rod gaps, one conventional and the other with a floating electrode;23rd International Conference on Lightning Protection (ICLP-96);1996;-;Firenze;Sin Información;-
-Simposio;Breakdown Characteristics of Rod-to-Plane Arrangements with Floating Electrodes on the High Voltage Side;Nordic Insulation Symposium, NORD-IS 96, Bergen 10-12, 1996, pages 355-362;1996;-;Bergen;Sin Información;-
-Encuentro;Electrocardiographic Alterations in Subjects Chronically Exposed to Nonionizing High-Intensity Electromagnetic Fields. Radiovetenskap och Kommunikation 96 (RVK 96);Annual meeting URSI;1996;-;Lille;Sin Información;-
-Otro;The corona onset voltage as a function of the curvature radius of floating electrodes;XI International Conference on Gas Discharges and their Applications (GD95);1995;-;Tokyo;Sin Información;-
-Simposio;The influence of a series micro-gap on the breakdown voltage of a complex gap arrangement containing floating electrodes, FE;The 9th International Symposium on High Voltage Engineering (ISH);1995;-;Graz;Sin Información;-
-Otro;Electrical characteristics of insulated metallic bodies in a lightning breakdown field;22rd International Conference on Lightning Protection (ICLP-94);1994;-;Budapest;Sin Información;-
-Otro;A new montecarlo method to simulate electrical discharge in gasesin nonuniform field;2002 Annual Report Conference on Electrical Insulation and Dielectric Phenomena;2002;-;Cancun, Quintana Roo, México;Sin Información;-
-Otro;Obtaining the electrical parameters of the predischarge in air by using digitized voltage waveforms;2002 Annual Report Conference on Electrical Insulation and Dielectric Phenomena;2002;-;Cancun, Quintana Roo, México;Sin Información;-
-Simposio;Experimental Study of conventional metal-Oxide distribution surge arresters with an intentionally connected series gap;International Symposium on High Voltage Engineering;2003;-;Delf, Netherlands 2003;Sin Información;-
-Simposio;A new method to obtain the degradation of surge arresters using an Extra High Impedance DC Current Source;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Calculation of corona onset voltages using a microscopic Monte Carlo simulation method;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Response of Low Voltage Protective Devices under subsequent stroke-like impulse currents;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Varistor Response under Subsequent Stroke-Like impulse currents;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Calculation of the Corona onset using a macroscopic Monte Carlo simulation method;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Adding negative Corona Currents produced by independent electrodes in a Cylindrical Coaxial Configuration;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Experimental study of conventional metal - oxide distribution surge arresters with an intentionally connected series gap;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Simposio;Influence of humidity on the breakdown voltage of a sphere-sphere gap, at the 2 600 M O.S.L.;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
-Seminario;Influence of humidity on the breakdown voltage of a sphere - sphere gap at 2600 m osl;International Seminar on High Voltage Engineering;2003;-;Delf, Holanda;Sin Información;-
-Simposio;Digital Parameter Identification for Metal-Oxide Surge Arrester Models;VII SIPDA VII international Symposium on Lightning Discharges;2003;-;Curitiva, Brasil;Sin Información;-
-Simposio;Distribution surge arresters damages on Colombian 15kV networks:: Study case: Electrical Company CODENSA S.A. E.S.P.;VII SPIDA International Symposium on Lightning Discharges;2003;-;Curitiva;Sin Información;-
-Otro;Teoría de las descargas eléctricas en gases;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Medidas de Alta Tensión;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Medidas y Pruebas en Alta Tensión;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Investigaciones Básicas para el prediseño de un Laboratorio de Alta Tensión, con fines hacia la Docencia, la Industria y la Investigación;I Jornada sobre Transmisión y Distribución de Energía Eléctrica ACIEM;1984;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;The Frist Lightning Measurement in the Field in Colombia;International Conference on Lightning Protection.;1992;-;Berlín;Sin Información;-
-Otro;Distribution Transfromers Failures and Lightning Activity in Colombia;International Conference on Lightning Protection.;1992;-;Berlín;Sin Información;-
-Simposio;Numerical simulation of negative corona in a coaxial cylindrical arrangement;ISH 2005 - International symposium on high voltage engineering;2005;-;Beijing, China;Sin Información;-
-Simposio;Numerical Simulation of the Positive Corona Current Behavior;ISH 2005 - International symposium on high voltage engineering;2005;-;Beijing, China;Sin Información;-
-Simposio;Corona impulse current produced by hyperboloidical tips in a coaxial cylindrical setup;International Symposium on High Voltage Engineering, 2005, Beijing.;,;-;Beijing, China;Sin Información;-
-Simposio;Charging rechargeable cells using a high impedance current source;International Symposium on High Voltage Engineering, 2005.;2005;-;Beijing, China;Sin Información;-
-Simposio;Numerical Simulation of Negative Corona in a Coaxial Cylindrical Arrangement;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;Numerical Simulation of the Positive Corona Current Behavior;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;Corona Impulse Current Produced by Hyperboloidical Tips in a Coaxial Cylindrical Setup;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;Corona Points Discharge Current Measurement on Atmospheric Electric Field;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;Electric Field Detector for Human Protection;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;A New fast Impulse Current Generator Based on the Floating Electrodes Properties;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
-Simposio;Energy Absorption on Distribution Lightning Arresters Due to Induced Lightning Currents on an Colombian Experimental Line;VI International Symposium on Lightning Protection VI Sipda;2001;-;Santos Brasil   - Sao Paulo, Brasil;Sin Información;-
+Tipo_Producto;     Nombre_Producto_Asociado;    Evento;     Año;     País;     Ciudad;     Financiación;     Observaciones
+Simposio;On the Use of the SEMAT Kernel within a Software Engineering Course;Latin American Software Engineering Symposium LASES 2014;2014;-;BARRANQUILLA;Sin Información;-
+Otro;How Distributed Version Control Systems impact Open Source Software Projects;The 9th Working Conference on Mining Software Repositories, MSR 2012;2012;-;;Sin Información;-
+Otro;Mining Source Code Descriptions from Developer Communications;2012 IEEE 20th International Conference on Program Comprehension (ICPC 2012);2012;-;Passau;Sin Información;-
+Otro;Towards the Automatic Extraction of Structural Business Rules from Legacy Databases;The 19th Working Conference on Reverse Engineering;2012;-;Kingston;Sin Información;-
+Otro;DevMeter: una Herramienta que mide la Contribución de los Desarrolladores;XXVI Conferencia Latinoamericana de Informatica;2010;-;Asunción;Sin Información;-
+Otro;SeeIT 3D: un plugin de Eclipse para visualizar y comprender código fuente;XXVI Conferencia Latinoamericana de Informatica;2010;-;Asunción;Sin Información;-
+Congreso;On the Use of Automated Text Summarization Techniques for Summarizing Source Code;17th Working Conference on Reverse Engineering;2010;-;BOGOTÁ, D.C.;Sin Información;-
+Encuentro;Summarizing Source Code Artifacts;Encuentro Nacional de Investigación y Desarrollo, ENIP 2010;2010;-;BOGOTÁ, D.C.;Sin Información;-
+Taller;Improving Traceability Link Recovery Methods through Software Artifact Summarization;6th International Workshop on Traceability in Emerging Forms of Software Engineering;2011;-;Hawaii;Sin Información;-
+Otro;Analyzing Human Summaries of Source Code Artifacts;XXXVII Conferencia Latinoamericana de Informática;2011;-;Quito;Sin Información;-

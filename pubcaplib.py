@@ -38,7 +38,7 @@ for a in range(0,len(containers)):
 if all != 0:
     containerb = containers[all]
     container = containerb.findAll("blockquote")
-    f = open ("./Resultados/Publicaciones_Libros.csv", "w")
+    f = open ("./Resultados/Publicaciones_Capitulos_Libros.csv", "w")
     headers = "Tipo_Producto; \
     Nombre_Producto;\
     ISBN/ISSN; \
@@ -60,18 +60,18 @@ if all != 0:
     for x in range(0, len(container)):
         cont = container[x]
         info_evento = cont.text
-        index1 = info_evento.find(',                    \r\n                    \r\n                    "') + 66
-        index2 = info_evento.find('"\r\n                    En:')
+        index1 = info_evento.find(',                    \r\n                            \r\n\r\n                            "') + 84
+        index2 = info_evento.find('"\r\n                            ')
         NombreProducto = info_evento[index1:index2]
         index1 = info_evento.find("ISBN:") + 6
-        index2 = info_evento.find("\xa0\r\n                    v.")
+        index2 = info_evento.find("\xa0\r\n                            ed:")
         ISSN = info_evento[index1:index2]
-        index1 = info_evento.find("\xa0\r\n                    ed:") + 26
-        index2 = info_evento.find("\xa0\r\n                    ISBN:")
+        index = info_evento.find(',                    \r\n                            \r\n\r\n                            "') + 84
+        index1 = info_evento.find("\r\n                    ", index , len(info_evento)) + 30
+        index2 = info_evento.find('\r\n                            . En:')
         Editorial = info_evento[index1:index2]
-        index = info_evento.find('"\r\n                    En:') + 25
-        index1 = info_evento.find('\r\n                    ', index , len(info_evento)) + 22
-        index2 = info_evento.find(".\xa0\r\n                    ed:")
+        index1 = info_evento.find('\xa0\r\n                            \r\n                            ,') + 62
+        index2 = index1 + 4
         AnoEvento = info_evento[index1:index2]
         f.write("Capítulos de Libros" + ";" \
         + "-" + ";" \

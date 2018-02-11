@@ -1,6 +1,2 @@
-Tipo_Producto; Nombre_Producto;ISBN/ISSN; Tipo_Obra; Publicado_en; País; Año; Idioma; Volumen; Página; Nombre_del_Capítulo; Carácter; Idioma_Destino; Entidad; Número/Código_Registro; Observaciones_Extra
-Libros;Modelamiento De Protecciones Utilizando Atp;978-958-701-829-5;-;Universidad Nacional de Colombia;-;2007;Sin Información;-;-;-;-;-;-;-;-
-Libros;The influence of a series micro-gap on the breakdown voltage of a complex gap arrangement containing floating electrodes, FE;;-;Docuement UURIE 267-95;-;1995;Sin Información;-;-;-;-;-;-;-;-
-Libros;Guide to the laboratory on insulation co-ordination;;-;Document UURIE 267-95;-;1995;Sin Información;-;-;-;-;-;-;-;-
-Libros;Effects Of Electric Field Impulses Produced By Electrically Floating Electrodes On The Corona Space Charge Generation And On The Breakdown Voltage Of Complex Gaps;9155438822;-;Almqvist & Wiksell International;-;1997;Sin Información;-;-;-;-;-;-;-;-
-Libros;Effects Of Electric Field Impulses Produced By Electrically Floating Electrodes On The Corona Space Charge Generation And On The Breakdown Voltage Of Complex Gaps;9155438822;-;Almqvist & Wiksell International;-;1996;Sin Información;-;-;-;-;-;-;-;-
+Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
+Libros;Research Topics In Software Evolution And Maintenance;978-958-761-162-5;-;Universidad Nacional De Colombia Sede Bogota;-;2012;Sin Información;-;-;-;-;-;-;-;-
