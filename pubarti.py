@@ -31,7 +31,7 @@ for a in range(0,len(containers)):
     try:
         if buscaeventos.text == "Artículos":
             all = a
-            print(all)
+            #print(all)
             break
     except AttributeError:
         pass
