@@ -12,16 +12,30 @@
 #############################################################################
 
  -->
-# Sample Website
+# CvLAC to Excel - UAPA - UNAL
 
-This is a sample website made as part of [*Learn Enough™ Git to Be
-Dangerous*](http://learnenough.com/git-tutorial), possibly the greatest
-beginner Git tutorial in the history of the Universe. You should totally [
-check it out](http://learnenough.com/git-tutorial), and be sure to [join
-the email list](http://learnenough.com/#email_list) and [follow @learnenough
-](http://twitter.com/learnenough) on Twitter.
+This project corresponds to an open source tool to webscraping CvLAC - Colciencias Page with self-assessment and accreditation purpuses.
 
-After finishing *Learn Enough™ Git to Be Dangerous*, you'll know enough Git
-to be *dangerous*. This means you'll be able to use Git to track changes in
-your projects, back up data, share your work with others, and collaborate
-with programmers and other users of Git.
+The entire project is associated to the
+[Unidad de Apoyo a Procesos de Autoevaluación y Acreditación](http://ingenieria.unal.edu.co/dependencias/vicedecanatura-academica/autoevaluacion) of the [Universidad Nacional de Colombia](http://unal.edu.co/).
+
+
+## Instructions
+1. Requirements:
+  * Windows 8 or higher / Ubuntu 14 or higher.
+  * Python 3.6.
+  * Internet Access.
+  * Any Text Editor (I used Atom 3).
+2. Install:
+  * Copy this repository to your machine.
+3. Usage:
+  * Locate the CvLAC that you want to use.
+  * Copy the URL.
+  * Open main.py on your text editor.
+  * replace "my_url" with the URL that you want to use.
+  * Open a Terminal (CMD, bash, Git... does not matters).
+  * Run:
+  ```
+    python main.py
+  ```  
+  * That is all, you sould see your data stored in the Resultados folder.
