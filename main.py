@@ -21,5 +21,6 @@ import pubeven
 import pubarti
 import publib
 import pubcaplib
+import pubsoft
 
 print ("Done! :]")
