@@ -39,7 +39,7 @@ for a in range(0,len(containers)):
 if all != 0:
     containerb = containers[all]
     container = containerb.findAll("blockquote")
-    f = open ("./Resultados/Publicaciones_Capitulos_Libros.csv", "w")
+    f = open ("./Resultados/Publicaciones_Software.csv", "w")
     headers = "Tipo_Producto; \
     Nombre_Producto;\
     ISBN/ISSN; \
