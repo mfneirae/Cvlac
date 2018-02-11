@@ -1,77 +1,91 @@
 Tipo_Producto; Nombre_Producto_Asociado;Evento; Año; País; Ciudad; Financiación; Observaciones
-Congreso;A Multi-Class Kernel Alignment Method For Image Collection Summarization;14TH IBEROAMERICAN CONGRESS ON PATTERN RECOGNITION CIARP 2009;2009;-;POPAYÁN;Sin Información;-
-Congreso;Kernel-Based Visualization of Large Collections of Medical Images Involving Domain Knowledge;X CONGRESO INTERNACIONAL EN INTERACCION PERSONA ORDENADOR;,;-;POPAYÁN;Sin Información;-
-Otro;A Latent Semantic Approach;CONFERENCE ON MULTILINGUAL AND MULTIMODAL INFORMATION ACCESS EVALUATION;2010;-;Padua;Sin Información;-
-Otro;Histology Image Indexing Using a Non-negative Sematic Embedding;14TH INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION;2011;-;Toronto;Sin Información;-
-Otro;Automatic Annotation of Histopathological Images Using a Latent Topic Model Based on Non-Negative Matrix Factorization;14TH INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION;2011;-;Toronto;Sin Información;-
-Otro;Kernel-Based Strategy for Exploratory Image Collections Search;INTERNATIONAL WORKSHOP ON CONTEN BASED MULTIMEDIA INDEXING CBMI IEEE 2010;2010;-;Grenoble;Sin Información;-
-Otro;Multimodal Visualization Based on Non-Negative Matrix Factorization;14TH EUROPEAN CONFERENCE ON RESEARCH AND ADVANCED TECHNOLOGY FOR DIGITAL LIBRARIES ECDL 2010;2010;-;POPAYÁN;Sin Información;-
-Otro;NMF-Based Multimodal Image Indexing for Querying by Visual Example;ACM INTERNATIONAL CONFERENCE ON IMAGE AND VIDEO RETRIEVA;2010;-;POPAYÁN;Sin Información;-
-Otro;Multimodal Image Annotation Using Non-Negative Matrix Factorization;2010 IEEE / WIC / ACM INTERNATIONAL CONFERENCES;2010;-;Toronto;Sin Información;-
-Otro;Automatic Annotation of Histopathological Images Using a Latent Topic Model Based On Non-negative Matrix Factorization;MICCAI 2011 HISTOPATHOLOGY IMAGE ANALYSIS WORKSHOP;,;-;ARMENIA;Sin Información;-
-Otro;Multimodal Fusion for Image Retrieval Using Matrix Factorization;2ND ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA RETRIEVAL ICMR 12;,;-;Guadalajara;Sin Información;-
-Congreso;A Framework for High Performance Image Analysis Pipelines;7TH COLOMBIAN COMPUTING CONGRESS 7CCC 2012;,;-;Guadalajara;Sin Información;-
-Otro;Bioingenium at ImageCLEF 2012: Text and Visual Indexing for Medical Images;CLEF ONLINE WORKING NOTES/LABS/WORKSHOP 2012;,;-;Guadalajara;Sin Información;-
-Otro;On the Robustness of Kernel-Based Clustering;LECTURE NOTES IN COMPUTER SCIENCE CIARP2012;,;-;Guadalajara;Sin Información;-
-Otro;Online Matrix Factorization for Multimodal Image Retrieval;LECTURE NOTES IN COMPUTER SCIENCE CIARP2012;,;-;Guadalajara;Sin Información;-
-Otro;Bag of Features for Automatic Classification of Alzheimer's Disease in Magnetic Resonance Images;LECTURE NOTES IN COMPUTER SCIENCE CIARP2012;,;-;Guadalajara;Sin Información;-
-Otro;A Visual Latent Semantic Approach for Automatic Analysis and Interpretation of Anaplastic Medulloblastoma Virtual Slides;MICCAI 2012 THE 15TH INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION;,;-;Guadalajara;Sin Información;-
-Otro;BIGS: A Framework for Large-Scale Image Processing and Analysis Over Distributed and Heterogeneous Computing Resources (presentation);IEEE INTERNATIONAL CONFERENCE ON ESCIENCE;,;-;Guadalajara;Sin Información;-
-Otro;Content-based Access to Medical Image Collections;MEDICAL INFORMATION REFERENCE IGI GLOBAL 2010;,;-;ARMENIA;Sin Información;-
-Otro;Multimodal Image Collection Visualization Using Non-negative Matrix Factorization;LECTURE NOTES IN COMPUTER SCIENCE ECDL2010;,;-;ARMENIA;Sin Información;-
-Otro;Multimodal Image Collection Visualization Using Non-negative Matrix Factorization;LECTURE NOTES IN COMPUTER SCIENCE ECDL2010;,;-;ARMENIA;Sin Información;-
-Otro;Text Comparison Using Soft Cardinality;LECTURE NOTES IN COMPUTER SCIENCE SPIRE2009;,;-;ARMENIA;Sin Información;-
-Otro;A Framework for High Performance Image Analysis Pipelines over Cloud Resources;THE LATIN AMERICAN CONFERENCE ON HIGH PERFORMANCE COMPUTING CLCAR 2012;,;-;Guadalajara;Sin Información;-
-Otro;Quantum Latent Semantic Analysis;LECTURE NOTES IN COMPUTER SCIENCE ICTIR2011;,;-;ARMENIA;Sin Información;-
-Otro;Quantum Latent Semantic Analysis;LECTURE NOTES IN COMPUTER SCIENCE ICTIR2011;,;-;ARMENIA;Sin Información;-
-Otro;Biomedical Image Analysis and Machine Learning Technologies: Applications and Techniques;MEDICAL INFORMATION REFERENCE IGI GLOBAL;,;-;ARMENIA;Sin Información;-
-Otro;From Image Analysis to Image Understanding Using Machine Learning;MEDICAL INFORMATION REFERENCE IGI GLOBAL;,;-;ARMENIA;Sin Información;-
-Congreso;Redes Inmunológicas Artificiales: Una Introducción;IN PROCEEDINGS OF THE INTERNATIONAL CONGRESS ON COMPUTATIONAL INTELLIGENCE CIIC;2005;-;MONTERÍA;Sin Información;-
-Otro;An immuno-fuzzy approach to anomaly detection;THE IEEE INTERNATIONAL CONFERENCE ON FUZZY SYSTEMS;2003;-;St. Louis, Missouri;Sin Información;-
-Otro;Detecting Cyber Attacks with Fuzzy Data Mining Techniques;WORKSHOP ON DATA MINING FOR COUNTER TERRORISM AND SECURITY THIRD SIAM CONFERENCE ON DATA MINING;2003;-;San Francisco;Sin Información;-
-Otro;Neuro-Immune and Self-Organizing Map Approaches to Anomaly Detection: A Comparison;1ST INTERNATIONAL CONFERENCE ON ARTIFICIAL IMMUNE SYSTEMS;2002;-;Canterbury, UK;Sin Información;-
-Otro;TECNO-STREAMS: Tracking evolving clusters in noisy data streams with a scalable immune system learning model.;3RD IEEE INTERNATIONAL CONFERENCE ON DATA MINING;2003;-;Melbourne;Sin Información;-
-Otro;Evolutionary Approach to Generate Fuzzy Anomaly Signatures.;IEEE INFORMATION ASSURANCE WORKSHOP;2003;-;New York;Sin Información;-
-Otro;An imunogenetic technique to detect anomalies in network traffic.;GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE GECCO;2002;-;New York;Sin Información;-
-Otro;A Novel Artificial Immune System Approach to Robust Data Mining.;GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE GECCO;2002;-;New York;Sin Información;-
-Otro;An immunogenetic technique to detect anomalies in network traffic.;GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE GECCO;2002;-;New York;Sin Información;-
-Otro;Evolving complex fuzzy classifier rules using a linear genetic representation;GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE GECCO;2002;-;New York;Sin Información;-
-Otro;Complete Expression Trees for Evolving Fuzzy Classifiers Systems with Genetic Algorithms and Application to Network intrusion Detection.;IEEE NAFIPS FLINT JOINT CONFERENCE;2002;-;New Orleans, LA;Sin Información;-
-Congreso;Combining Negative Selection and Classification Techniques for Anomaly Detection.;CONGRESS ON EVOLUTIONARY COMPUTATION;2002;-;Honolulu, Haway;Sin Información;-
-Otro;The Fuzzy Artificial Immune System: Motivations, Basic Concepts, and Application to Clustering and Web Profiling.;IEEE INTERNATIONAL CONFERENCE ON FUZZY SYSTEMS;2002;-;Hawaii;Sin Información;-
-Otro;The Promise and Challenges of Artificial Immune System Based Web Usage Mining: Preliminary Results.;WORKSHOP ON WEB ANALYTICS SECOND SIAM CONFERENCE ON DATA MINING;2002;-;Arlington, VA;Sin Información;-
-Otro;Tool to Generate Local Internet Weather.;ISCA 17TH INTERNATIONAL CONFERENCE ON COMPUTERS AND THEIR APPLICATIONS CATA;2002;-;San Francisco, CA;Sin Información;-
-Otro;A Grid Computing Approach to Subtraction Radiography;HE INTERNATIONAL CONFERENCE ON IMAGE PROCESSING ICIP;2006;-;Atlanta;Sin Información;-
-Congreso;Page Clustering Using a Distance-Based Algorithm;THIRD LATIN AMERICAN WEB CONGRESS LA WEB2005;2005;-;BUENOS AIRES;Sin Información;-
-Otro;Discriminating and Visualizing Anomalies Using Negative Selection and Self-Organizing Maps;CONFERENCE ON GENETIC AND EVOLUTIONARY COMPUTATION GECCO05;2005;-;Washington DC;Sin Información;-
-Otro;A comparative analysis of artificial immune network models;2005 CONFERENCE ON GENETIC AND EVOLUTIONARY COMPUTATION GECCO05;2005;-;Washington;Sin Información;-
-Otro;Distributed Genetic Algorithm for Subtraction Radiography;GECCO WORKSHOP ON MEDICAL APPLICATIONS OF GENETIC AND EVOLUTIONARY COMPUTATION MEDGEC 2005;2005;-;Washington;Sin Información;-
-Congreso;Artificial Immune System (AIS) Research in the Last Five Years;IEEE CONGRESS ON EVOLUTIONARY COMPUTATION CEC;2003;-;Canberra;Sin Información;-
-Otro;Mechanical Design Optimization of a Walking Robot Leg Using Genetic Algorithm;7TH INTERNATIONAL CONFERENCE ON CLIMBING AND WALKING ROBOTS CLAWAR 04;2004;-;MADRID;Sin Información;-
-Otro;Mining Evolving User Profiles in Noisy Web Clickstream Data with a Scalable Immune System Clustering Algorithm;FIFTH WEBKDD WORKSHOP WEBKDD03;2003;-;Washington;Sin Información;-
-Congreso;FIADA: Framework para la Implementación de Algoritmos de Detección de Anomalías;INTERNATIONAL CONGRESS ON COMPUTATIONAL INTELLIGENCE;2005;-;MONTERÍA;Sin Información;-
-Congreso;Diseño de Circuitos Analógicos con Programación Genética;INTERNATIONAL CONGRESS ON COMPUTATIONAL INTELLIGENCE CIIC 2005;2005;-;MONTERÍA;Sin Información;-
-Congreso;Algoritmo Bioinspirado para la Detección y Visualización de Anomalías;INTERNATIONAL CONGRESS ON COMPUTATIONAL INTELLIGENCE CIIC 2005;2005;-;MONTERÍA;Sin Información;-
-Congreso;Redes Inmunológicas Artificiales: Una Introducción;INTERNATIONAL CONGRESS ON COMPUTATIONAL INTELLIGENCE CIIC 2005;2005;-;MONTERÍA;Sin Información;-
-Congreso;Evaluación de Características de Bajo Nivel para Recuperación de Imágenes de Histología por Contenido;2DO CONGRESO COLOMBIANO DE COMPUTACION;2007;-;BOGOTÁ, D.C.;Sin Información;-
-Congreso;Una Aproximación a la Categorización automática de Correos Electrónicos;2DO CONGRESO COLOMBIANO DE COMPUTACION;2007;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Mining Coronal Loops in Solar Images from the SOHO collection;NAFIPS;2007;-;BOGOTÁ, D.C.;Sin Información;-
-Otro;Performance of Recommendation Systems in Dynamic Streaming Environments;SEVENTH SIAM INTERNATIONAL CONFERENCE ON DATA MINING;2007;-;Minneapolis, Minnesota;Sin Información;-
-Otro;Gene Selection Based on Category Detection of Gene Ontology;7TH INTERNATIONAL CONFERENCE FOR THE CRITICAL ASSESSMENT OF MICROARRAY DATA ANALYSIS;2007;-;VALENCIA;Sin Información;-
-Otro;Análisis Global de Comportamiento Web de la Universidad Nacional de Colombia;XXXIII CONFERENCIA LATINOAMERICANA DE INFORMATICA CLEI;2007;-;;Sin Información;-
-Encuentro;Prototipo de sistema para almacenamiento y recuperación por contenido en imágenes médicas de histopatología;ENCUENTRO NACIONAL DE INVESTIGACION EN POSTGRADOS;2007;-;Merida;Sin Información;-
-Congreso;Visualization of Large Collections of Medical Images.;IV CONGRESO COLOMBIANO DE COMPUTACION 4CCC;2009;-;MEDELLÍN;Sin Información;-
-Otro;Histopathology image classification using bag of features and kernel functions.;ARTIFICIAL INTELLIGENCE IN MEDICINE CONFERENCE AIME09;2009;-;MEDELLÍN;Sin Información;-
-Congreso;A Multi-Class Kernel Alignment Method for Image Collection Summarization.;IBEROAMERICAN CONGRESS ON PATTERN RECOGNITION CIARP;2009;-;Guadalajara;Sin Información;-
-Congreso;Visual Pattern Analysis in Histopathology Images Using Bag of Features;IBEROAMERICAN CONGRESS ON PATTERN RECOGNITION CIARP;2009;-;Guadalajara;Sin Información;-
-Otro;Visualization, Summarization and Exploration of Large Collections of Images: State Of The Art;LATINAMERICAN CONFERENCE ON NETWORKED AND ELECTRONIC MEDIA LACNEM2009;2009;-;MEDELLÍN;Sin Información;-
-Encuentro;Cuantificación Automática de Células en Imágenes de Cultivo in Vitro de Plasmodium Falciparum;ENCUENTRO NACIONAL DE LA INVESTIGACION EN POSTGRADOS;2007;-;Merida;Sin Información;-
-Otro;A Web-Based System for Biomedical Image Storage, Annotation, Content-Based Retrieval and Exploration;MICROSOFT ESCIENCE WORKSHOP;2009;-;MEDELLÍN;Sin Información;-
-Congreso;Metric Indexing for Contente-Based Medical Image Retrieval;III CONGRESO COLOMBIANO DE COMPUTACION;,;-;Edimburgo;Sin Información;-
-Otro;Combining Visual Features and Text Data for Medical Image Retrieval Using Latent Semantic Kernels;11TH ACM SIGMM INTERNATIONAL CONFERENCE ON MULTIMEDIA INFORMATION RETRIEVAL;2010;-;Philadelphia;Sin Información;-
-Congreso;Learning Regions of Interest from low level maps in virtual microscopy;10TH EUROPEAN CONGRESS ON TELEPATHOLOGY AND 4TH INTERNATIONAL CONGRESS ON VIRTUAL MICROSCOPY;2010;-;MEDELLÍN;Sin Información;-
-Simposio;Visualization of Large Collections of Medical Images;SEGUNDO SIMPOSIO DOCTORAL EN INGENIERIA DE SISTEMAS Y COMPUTACION SDSC09;2009;-;MEDELLÍN;Sin Información;-
-Seminario;A System for Medical Image Collection Visualization and Exploration;V SEMINARIO INTERNACIONAL PROCESAMIENTO Y ANALISIS DE IMAGENES MEDICAS SIPAIM2009;2009;-;MEDELLÍN;Sin Información;-
-Congreso;Aprendizaje Transductivo para la Clasificación de Imágenes Médicas de Radiología;IV CONGRESO COLOMBIANO DE COMPUTACION;2009;-;BUCARAMANGA;Sin Información;-
-Otro;Collaborative filtering in dynamic usage environments;CONFERENCE ON INFORMATION AND KNOWLEDGE MANAGEMENT;2006;-;Arlington;Sin Información;-
-Otro;An imunogenetic technique to detect anomalies in network traffic;GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE;2002;-;New York;Sin Información;-
+Otro;STUDY OF THE BEHAVIOUR OF THE CORONA CURRENT UNDER CONTROLLED ENVIRONMENTAL CONDITIONS;X SIPDA International Symposium on Lightning Protection;2009;-;Curitiba   - Curitiba, Brasil;Sin Información;-
+Otro;NOISE REDUCTION OF MEASURED LIGHTNING ELECTRIC FIELDS SIGNALS USING THE WAVELET TRANSFORM;X SIPDA International Symposium on Lightning Protection;2009;-;Curitiba   - Curitiba, Brasil;Sin Información;-
+Simposio;Time-domain analysis of an electromagnetic lens for a Half Impulse Radiating Antenna;2010 Asia-Pacific Symposium on Electromagnetic Compatibility;2010;-;Beijing, China   - Beijing, China;Sin Información;-
+Congreso;Analysis of wavelet based denoising methods applied to measured lightning electric fields;2010 30th International Conference on Lightning Protection (ICLP);2010;-;Cagliari   - Cagliari, Italia;Sin Información;-
+Congreso;Wideband experimental characterization of differential antennas;2012 6th European Conference on Antennas and Propagation (EUCAP);2012;-;prague   - Prague;Sin Información;-
+Congreso;Striking Distance of Vulnerable Points to be struck by Lightning in Complex Structures;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Comparison Between the Signatures of Lightning Electric Field Measured in Colombia and that in Sri Lanka;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Modeling of metal - oxide distribution surge arresters with an intentionally connected series gap;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Analysis of a Lightning accident Considering a Modified Human Body Model;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Understanding the point discharge DC current produced by corona needles;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Improvement of the Output Current Response of an Electrostatic Fast Impulse Current Generator;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Experimental Analysis of a Parallel Antenna Used in Lightning Electric Measurements;2006 28th International Conference on Lightning Protection;2006;-;Kanazawa   - Kanazawa, Japon;Sin Información;-
+Congreso;Design of a switched oscillator for IEMI susceptibility testing;Design of a switched oscillator for IEMI susceptibility testing;2013;-;Denver   - Denver, Co, USA;Sin Información;-
+Congreso;Design and simulation of a coaxial exponential transmission line for a Half Impulse Radiating Antenna;2011 XXXth URSI General Assembly and Scientific Symposium;2011;-;Estambul   - Estambul, Turquia;Sin Información;-
+Simposio;STUDY OF THE BEHAVIOUR OF THE CORONA CURRENT UNDER CONTROLLED ENVIRONMENTAL CONDITIONS;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
+Simposio;NOISE REDUCTION OF MEASURED LIGHTNING ELECTRIC FIELDS SIGNALS USING THE WAVELET TRANSFORM;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
+Simposio;Noise Reduction of Measured Lightning Electric Field Signals using the Wavelet Transform;2009 X International Symposium on Lightning Protection (SIPDA);2009;-;São Paulo   - Sao Pablo, Brasil;Sin Información;-
+Simposio;Design Of A Multigap Loop (Mgl) Sensor For Lightning Magnetic Field Measurement;2011 International Symposium on Lightning Protection (XI SIPDA);2011;-;Forlateza   - Fortaleza, Brasil;Sin Información;-
+Simposio;Influence of the wind for positive corona in a single-needle-electrode on thunderstorm-like conditions;2011 International Symposium on Lightning Protection (XI SIPDA);2011;-;Forlateza   - Fortaleza, Brasil;Sin Información;-
+Congreso;Behavior of corona current and atmospheric variables under thunderstorm conditions: Thunderstorm prediction algorithm;2012 International Conference on Lightning protection (ICLP);2012;-;Vienna;Sin Información;-
+Congreso;Corona current and space charge during a thunderstorm;2012 International Conference on Lightning protection (ICLP);2012;-;Vienna;Sin Información;-
+Congreso;Electric field sensors effect on pulsed power measurements;2013 13th IEEE Pulsed Power Conference (PPC);2013;-;Tlaxcala   - San Francisco, CA, USA;Sin Información;-
+Congreso;Spark gap resistance for an electrostatic discharge at different pressures;2008 IEEE 35th International Conference on Plasma Science;2008;-;Karlstadt   - Karlsruhe, Alemania;Sin Información;-
+Simposio;Study of a sensor for measurements of high amplitude-Fast rise time currents in a coaxial cable;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
+Simposio;Theorical and experimental behavior of corona needles sources;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
+Simposio;Voltage - Current characteristics of semiconductor glazes obtained with a high impedance current source;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
+Simposio;Corona current generation on a coaxial configuration with low potentials;2007 15th International Symposium on high Voltage Engineering ISH;2007;-;IBAGUÉ   - Ljubljana, Slovenia;Sin Información;-
+Otro;Breakdown effect on long gaps under switching impulses statiscal variation;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
+Otro;Behaviour of the shoe-to-earth contact under lightning like current impulses;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
+Otro;Lightning attachment to common structures: is the rolling sphere method really adequate?;2008 29th International Conference on Lightning Protection ICLP;2008;-;Upsala   - Upsala, Suecia;Sin Información;-
+Otro;Behaviour of the shoe-to-earth contact under lightning like current impulses;29th International Conference on Lightning Protection;2008;-;IBAGUÉ;Sin Información;-
+Otro;Lightning attachment to common structures: is the rolling sphere method really adequate?;29th International Conference on Lightning Protection;2008;-;IBAGUÉ;Sin Información;-
+Congreso;Radiating Broad- Band pulse generator with Corona charging mechanism;European electromagnetics (EUROEM 2008);2008;-;Lausanne   - Lausanne, Suiza;Sin Información;-
+Congreso;Investigation on the transmisión of a DC current through a space gap;European electromagnetics (EUROEM 2008);2008;-;Lausanne   - Lausanne, Suiza;Sin Información;-
+Simposio;Corona Charged Subnanosecond Impulse Generator;The 20th International Zurich Symposium on Electromagnetic Compatibility;2009;-;BOGOTÁ, D.C.;Sin Información;-
+Otro;Design and Construction of a Compact Electrostatic Fast Impulse Current Generator;2005 IEEE Pulsed Power Conference;2005;-;BOGOTÁ, D.C.;Sin Información;-
+Congreso;Design and Simulation of an Electromagnetic Lens for a Half Impulse Radiating Antenna;2009 International Conference on Electromagnetics in Advanced Applications ICEAA '09;2009;-;Torino   - Torino, Italia;Sin Información;-
+Congreso;Design and Construction of a Corona Charged High Power Impulse Generator;2009 Pulsed Power Conference, PPC '09;2009;-;Washington DC   - Washington DC, USA;Sin Información;-
+Simposio;Corona Charged subnanosecond impulse generator;2009 20th International Zurich Symposium on Electromagnetic Compatibility;2009;-;Zurich   - Zurich, Switzerland;Sin Información;-
+Simposio;Comparison of The Breakdown Voltage of Two Insulating Columns Using The Simple Stress Method;VI International Symposium on Lightning Protection VI Sipda, Santos Brazil, 19 - 23 Nov 323 - 328.;2001;-;Santos Brasil;Sin Información;-
+Otro;Comparación de la tensión disruptiva de dos columnas aislantes utilizando el método del esfuerzo simple;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
+Otro;Caracterización de los varistores mediante una fuente de corriente de muy alta impedancia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
+Otro;Degradación de descargadores de sobretensión de óxido de metálico tipo distribución. Estudio de caso: Vereda el trigo, Cundinamarca, Colombia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
+Otro;Análisis de Sobretensiones y Energía Disipada en los Descargadores de Sobretensión en una Línea de Prueba Debido a Voltajes Inducidos por Descargas Subsecuentes del Rayo;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
+Otro;Análisis Estadístico de Señales Inducidas por Descargas Subsecuentes del Rayo en una Línea de Prueba ubicada en La Palma, Cundinamarca, Colombia;ALTAE V jornadas latinoamericans y II iberoamericanas en Alta Tensión y Aislamiento eléctrico;2001;-;La Habana;Sin Información;-
+Otro;Determinación del Voltaje Representativo en el Método del Esfuerzo Simple;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
+Otro;Medición y Reglamentación sobre Exposición a los Campos Eléctricos y Magnéticos de Extra Baja Frecuencia en Subestaciones Eléctricas Colombianas;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
+Otro;Modelamiento en Atp-Models de Varistores y Tubos de Gas como Elementos de Protección en Baja Tensión;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
+Otro;Ecuación para Corrección de la Disrupción del Aire en Bogotá con Condiciones Controladas de Temperatura y Humedad para Ondas Tipo Maniobra en un Arreglo Punta-Placa;ALTAE IV jornadas latinoamericans y I iberoamericanas en Alta Tensión y Aislamiento eléctrico;1999;-;MEDELLÍN;Sin Información;-
+Simposio;Breakdown characteristics of 500 mm and 250 mm long sparks over insulating surfaces;, Eleventh International Symposium on High-Voltage Engineering ISH 99,;1999;-;London UK;Sin Información;-
+Simposio;Las Fallas de los transformadores de distribucion, un estudio de casos y Controles;Simposio Nacional CIDET;1997;-;BOGOTÁ, D.C.;Sin Información;-
+Simposio;The single stress method to Study the Physical Properties of Discharge Procfesses in Air;10th International Simposium on High Voltage Engineering ISH 97;1997;-;Montreal;Sin Información;-
+Otro;The Principle of Operation of a single Electrostatic field Measuring Device;the 8th International Conference on Electrostatics;1997;-;Poiters;Sin Información;-
+Otro;Comparison of the Breakdown Probability of two sphere-rod gaps, one conventional and the other with a floating electrode;23rd International Conference on Lightning Protection (ICLP-96);1996;-;Firenze;Sin Información;-
+Simposio;Breakdown Characteristics of Rod-to-Plane Arrangements with Floating Electrodes on the High Voltage Side;Nordic Insulation Symposium, NORD-IS 96, Bergen 10-12, 1996, pages 355-362;1996;-;Bergen;Sin Información;-
+Encuentro;Electrocardiographic Alterations in Subjects Chronically Exposed to Nonionizing High-Intensity Electromagnetic Fields. Radiovetenskap och Kommunikation 96 (RVK 96);Annual meeting URSI;1996;-;Lille;Sin Información;-
+Otro;The corona onset voltage as a function of the curvature radius of floating electrodes;XI International Conference on Gas Discharges and their Applications (GD95);1995;-;Tokyo;Sin Información;-
+Simposio;The influence of a series micro-gap on the breakdown voltage of a complex gap arrangement containing floating electrodes, FE;The 9th International Symposium on High Voltage Engineering (ISH);1995;-;Graz;Sin Información;-
+Otro;Electrical characteristics of insulated metallic bodies in a lightning breakdown field;22rd International Conference on Lightning Protection (ICLP-94);1994;-;Budapest;Sin Información;-
+Otro;A new montecarlo method to simulate electrical discharge in gasesin nonuniform field;2002 Annual Report Conference on Electrical Insulation and Dielectric Phenomena;2002;-;Cancun, Quintana Roo, México;Sin Información;-
+Otro;Obtaining the electrical parameters of the predischarge in air by using digitized voltage waveforms;2002 Annual Report Conference on Electrical Insulation and Dielectric Phenomena;2002;-;Cancun, Quintana Roo, México;Sin Información;-
+Simposio;Experimental Study of conventional metal-Oxide distribution surge arresters with an intentionally connected series gap;International Symposium on High Voltage Engineering;2003;-;Delf, Netherlands 2003;Sin Información;-
+Simposio;A new method to obtain the degradation of surge arresters using an Extra High Impedance DC Current Source;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Calculation of corona onset voltages using a microscopic Monte Carlo simulation method;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Response of Low Voltage Protective Devices under subsequent stroke-like impulse currents;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Varistor Response under Subsequent Stroke-Like impulse currents;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Calculation of the Corona onset using a macroscopic Monte Carlo simulation method;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Adding negative Corona Currents produced by independent electrodes in a Cylindrical Coaxial Configuration;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Experimental study of conventional metal - oxide distribution surge arresters with an intentionally connected series gap;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Simposio;Influence of humidity on the breakdown voltage of a sphere-sphere gap, at the 2 600 M O.S.L.;XIIIth International Symposium on high Voltage Engineering;2003;-;Delf;Sin Información;-
+Seminario;Influence of humidity on the breakdown voltage of a sphere - sphere gap at 2600 m osl;International Seminar on High Voltage Engineering;2003;-;Delf, Holanda;Sin Información;-
+Simposio;Digital Parameter Identification for Metal-Oxide Surge Arrester Models;VII SIPDA VII international Symposium on Lightning Discharges;2003;-;Curitiva, Brasil;Sin Información;-
+Simposio;Distribution surge arresters damages on Colombian 15kV networks:: Study case: Electrical Company CODENSA S.A. E.S.P.;VII SPIDA International Symposium on Lightning Discharges;2003;-;Curitiva;Sin Información;-
+Otro;Teoría de las descargas eléctricas en gases;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
+Otro;Medidas de Alta Tensión;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
+Otro;Medidas y Pruebas en Alta Tensión;Curso de Actualización en Alta Tensión;,;-;BOGOTÁ, D.C.;Sin Información;-
+Otro;Investigaciones Básicas para el prediseño de un Laboratorio de Alta Tensión, con fines hacia la Docencia, la Industria y la Investigación;I Jornada sobre Transmisión y Distribución de Energía Eléctrica ACIEM;1984;-;BOGOTÁ, D.C.;Sin Información;-
+Otro;The Frist Lightning Measurement in the Field in Colombia;International Conference on Lightning Protection.;1992;-;Berlín;Sin Información;-
+Otro;Distribution Transfromers Failures and Lightning Activity in Colombia;International Conference on Lightning Protection.;1992;-;Berlín;Sin Información;-
+Simposio;Numerical simulation of negative corona in a coaxial cylindrical arrangement;ISH 2005 - International symposium on high voltage engineering;2005;-;Beijing, China;Sin Información;-
+Simposio;Numerical Simulation of the Positive Corona Current Behavior;ISH 2005 - International symposium on high voltage engineering;2005;-;Beijing, China;Sin Información;-
+Simposio;Corona impulse current produced by hyperboloidical tips in a coaxial cylindrical setup;International Symposium on High Voltage Engineering, 2005, Beijing.;,;-;Beijing, China;Sin Información;-
+Simposio;Charging rechargeable cells using a high impedance current source;International Symposium on High Voltage Engineering, 2005.;2005;-;Beijing, China;Sin Información;-
+Simposio;Numerical Simulation of Negative Corona in a Coaxial Cylindrical Arrangement;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;Numerical Simulation of the Positive Corona Current Behavior;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;Corona Impulse Current Produced by Hyperboloidical Tips in a Coaxial Cylindrical Setup;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;Corona Points Discharge Current Measurement on Atmospheric Electric Field;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;Electric Field Detector for Human Protection;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;A New fast Impulse Current Generator Based on the Floating Electrodes Properties;XIVth International Symposium on High Voltage Engineering;2005;-;Beijing;Sin Información;-
+Simposio;Energy Absorption on Distribution Lightning Arresters Due to Induced Lightning Currents on an Colombian Experimental Line;VI International Symposium on Lightning Protection VI Sipda;2001;-;Santos Brasil   - Sao Paulo, Brasil;Sin Información;-

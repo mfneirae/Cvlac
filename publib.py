@@ -29,7 +29,7 @@ for a in range(0,len(containers)):
     buscaeventos = containers[a].h3
     #print(buscaeventos)
     try:
-        if buscaeventos.text == "Artículos":
+        if buscaeventos.text == "Libros":
             all = a
             print(all)
             break
@@ -38,7 +38,7 @@ for a in range(0,len(containers)):
 
 containerb = containers[all]
 container = containerb.findAll("blockquote")
-f = open ("./Resultados/Publicaciones_Artículos.csv", "w")
+f = open ("./Resultados/Publicaciones_Libros.csv", "w")
 headers = "Tipo_Producto; \
 Nombre_Producto;\
 ISBN/ISSN; \
@@ -57,37 +57,33 @@ Número/Código_Registro; \
 Observaciones_Extra\n"
 f.write(headers)
 
+
 for x in range(0, len(container)):
     cont = container[x]
     info_evento = cont.text
-    index1 = info_evento.find('\r\n                    "') + 23
-    index2 = info_evento.find('"\r\n                    . En:')
+    index1 = info_evento.find(',                    \r\n                    \r\n                    "') + 66
+    index2 = info_evento.find('"\r\n                    En:')
     NombreProducto = info_evento[index1:index2]
-    index1 = info_evento.find("ISSN:") + 6
-    index2 = index1 + 9
+    index1 = info_evento.find("ISBN:") + 6
+    index2 = info_evento.find("\xa0\r\n                    v.")
     ISSN = info_evento[index1:index2]
-    index1 = info_evento.find("\xa0\r\n                    ") + 23
-    index2 = info_evento.find("\xa0\r\n                    ISSN:")
-    Revista = info_evento[index1:index2]
-    index1 = info_evento.find("\r\n                    ,") + 23
-    index2 = info_evento.find(",\r\n                    \xa0")
+    index1 = info_evento.find("\xa0\r\n                    ed:") + 26
+    index2 = info_evento.find("\xa0\r\n                    ISBN:")
+    Editorial = info_evento[index1:index2]
+    index = info_evento.find('"\r\n                    En:') + 25
+    index1 = info_evento.find('\r\n                    ', index , len(info_evento)) + 22
+    index2 = info_evento.find(".\xa0\r\n                    ed:")
     AnoEvento = info_evento[index1:index2]
-    index1 = info_evento.find("\nv.") + 3
-    index2 = info_evento.find("\r\n                    fasc.")
-    Volumen = info_evento[index1:index2]
-    index1 = info_evento.find("\r\n                    p.") + 24
-    index2 = info_evento.find("\r\n                    ,")
-    Pag = info_evento[index1:index2]
-    f.write("Artículo de revista" + ";" \
+    f.write("Libros" + ";" \
     + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
     + ISSN.strip().replace("\r\n","") + ";" \
     + "-" + ";" \
-    + Revista.strip().replace("\r\n","").replace(";" , "|") + ";" \
+    + Editorial.strip().replace("\r\n","").replace(";" , "|") + ";" \
     + "-" + ";" \
     + AnoEvento.strip().replace("\r\n","") + ";" \
     + "Sin Información" + ";" \
-    + Volumen.replace("\r\n","").replace("\n","") + ";" \
-    + "".join(Pag.replace("\r\n","").split()).replace("-"," a ") + ";" \
+    + "-" + ";" \
+    + "-" + ";" \
     + "-" + ";" \
     + "-" + ";" \
     + "-" + ";" \

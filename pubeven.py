@@ -32,10 +32,11 @@ for a in range(0,len(containers)):
     try:
         if buscaeventos.text == "Eventos científicos":
             all = a
-            #print(all)
+            print(all)
             break
     except AttributeError:
         pass
+
 containerb = containers[all]
 container = containerb.findAll("table")
 f = open ("./Resultados/Publicaciones_Eventos.csv", "w")
@@ -82,12 +83,12 @@ for x in range(0, len(container)):
         Tipopub = prod[index1:index2]
         if Tipopub == "Producción bibliográfica - Trabajos en eventos (Capítulos de memoria)":
             Tipopub = "Capítulos de memoria"
-        f.write(Tipopub.strip() + ";" \
-        + NombreProducto.strip().replace(";" , "|") + ";" \
-        + "-" + ";" \
-        + "-" + ";" \
-        + NombreEvento.strip().replace(";" , "|") + ";" \
-        + LugarEvento.strip().replace(";" , "|") + ";" \
+        f.write(Tipopub.strip().replace("\n","") + ";" \
+        + NombreProducto.replace("\r\n","").replace("\n","").strip().replace(";" , "|") + ";" \
+        + "-".replace("\n","") + ";" \
+        + "-".replace("\n","") + ";" \
+        + NombreEvento.strip().replace("\r\n","").replace(";" , "|") + ";" \
+        + LugarEvento.strip().replace("\r\n","").replace(";" , "|") + ";" \
         + AnoEvento.strip() + ";" \
         + "-" + ";" \
         + "-" + ";" \

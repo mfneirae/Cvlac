@@ -73,11 +73,11 @@ for x in range(0, len(container)):
         index2 = prod.find("Tipo de producto:")
         NombreProducto = prod[index1:index2]
         f.write(TipoEvento.strip() + ";" \
-        + NombreProducto.strip().replace(";" , "|") + ";" \
-        + NombreEvento.strip().replace(";" , "|") + ";" \
+        + NombreProducto.strip().replace(";" , "|").replace("\r\n","") + ";" \
+        + NombreEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
         + AnoEvento.strip() + ";" \
         + "-" + ";" \
-        + LugarEvento.strip().replace(";" , "|") + ";" \
+        + LugarEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
         + "Sin Información" + ";" \
         + "-" \
         + "\n")
