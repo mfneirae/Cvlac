@@ -36,50 +36,55 @@ for a in range(0,len(containers)):
             break
     except AttributeError:
         pass
-containerb = containers[all]
-container = containerb.findAll("table")
-f = open ("./Resultados/Actividades.csv", "w")
-headers = "Tipo_Producto; \
-Nombre_Producto_Asociado;\
-Evento; \
-Año; \
-País; \
-Ciudad; \
-Financiación; \
-Observaciones\n"
-f.write(headers)
-for x in range(0, len(container)):
-    cont = container[x]
-    info_evento = cont.td.text
-    index1 = info_evento.find("Nombre del evento:") + 18
-    index2 = info_evento.find("Tipo de evento:")
-    NombreEvento = info_evento[index1:index2]
-    index1 = info_evento.find("Tipo de evento:") + 15
-    index2 = info_evento.find("Ámbito:")
-    TipoEvento = info_evento[index1:index2]
-    index1 = info_evento.find("Realizado el:") + 13
-    index2 = index1 + 4
-    AnoEvento = info_evento[index1:index2]
-    if AnoEvento == ",":
-        AnoEvento = "-"
-    index1 = info_evento.find(" \xa0\r\n                                            en ") + 51
-    index2 = info_evento.find(" \xa0 -  \xa0\r\n")
-    LugarEvento = info_evento[index1:index2]
-    b_productos = cont.findAll("td")
-    productos = b_productos[1].findAll("li")
-    for y in range(0, len(productos)):
-        prod = productos[y].text
-        index1 = prod.find("Nombre del producto:") + 20
-        index2 = prod.find("Tipo de producto:")
-        NombreProducto = prod[index1:index2]
-        f.write(TipoEvento.strip() + ";" \
-        + NombreProducto.strip().replace(";" , "|").replace("\r\n","") + ";" \
-        + NombreEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
-        + AnoEvento.strip() + ";" \
-        + "-" + ";" \
-        + LugarEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
-        + "Sin Información" + ";" \
-        + "-" \
-        + "\n")
-    p = 0
-f.close()
+
+if all != 0:
+    pass
+    containerb = containers[all]
+    container = containerb.findAll("table")
+    f = open ("./Resultados/Actividades.csv", "w")
+    headers = "Tipo_Producto; \
+    Nombre_Producto_Asociado;\
+    Evento; \
+    Año; \
+    País; \
+    Ciudad; \
+    Financiación; \
+    Observaciones\n"
+    f.write(headers)
+    for x in range(0, len(container)):
+        cont = container[x]
+        info_evento = cont.td.text
+        index1 = info_evento.find("Nombre del evento:") + 18
+        index2 = info_evento.find("Tipo de evento:")
+        NombreEvento = info_evento[index1:index2]
+        index1 = info_evento.find("Tipo de evento:") + 15
+        index2 = info_evento.find("Ámbito:")
+        TipoEvento = info_evento[index1:index2]
+        index1 = info_evento.find("Realizado el:") + 13
+        index2 = index1 + 4
+        AnoEvento = info_evento[index1:index2]
+        if AnoEvento == ",":
+            AnoEvento = "-"
+        index1 = info_evento.find(" \xa0\r\n                                            en ") + 51
+        index2 = info_evento.find(" \xa0 -  \xa0\r\n")
+        LugarEvento = info_evento[index1:index2]
+        b_productos = cont.findAll("td")
+        productos = b_productos[1].findAll("li")
+        for y in range(0, len(productos)):
+            prod = productos[y].text
+            index1 = prod.find("Nombre del producto:") + 20
+            index2 = prod.find("Tipo de producto:")
+            NombreProducto = prod[index1:index2]
+            f.write(TipoEvento.strip() + ";" \
+            + NombreProducto.strip().replace(";" , "|").replace("\r\n","") + ";" \
+            + NombreEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
+            + AnoEvento.strip() + ";" \
+            + "-" + ";" \
+            + LugarEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
+            + "Sin Información" + ";" \
+            + "-" \
+            + "\n")
+        p = 0
+    f.close()
+else:
+    print("El Docente no tiene Eventos Asociados")

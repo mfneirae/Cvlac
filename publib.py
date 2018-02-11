@@ -36,60 +36,64 @@ for a in range(0,len(containers)):
     except AttributeError:
         pass
 
-containerb = containers[all]
-container = containerb.findAll("blockquote")
-f = open ("./Resultados/Publicaciones_Libros.csv", "w")
-headers = "Tipo_Producto; \
-Nombre_Producto;\
-ISBN/ISSN; \
-Tipo_Obra; \
-Publicado_en; \
-País; \
-Año; \
-Idioma; \
-Volumen; \
-Página; \
-Nombre_del_Capítulo; \
-Carácter; \
-Idioma_Destino; \
-Entidad; \
-Número/Código_Registro; \
-Observaciones_Extra\n"
-f.write(headers)
+if all != 0:
+    pass
+    containerb = containers[all]
+    container = containerb.findAll("blockquote")
+    f = open ("./Resultados/Publicaciones_Libros.csv", "w")
+    headers = "Tipo_Producto; \
+    Nombre_Producto;\
+    ISBN/ISSN; \
+    Tipo_Obra; \
+    Publicado_en; \
+    País; \
+    Año; \
+    Idioma; \
+    Volumen; \
+    Página; \
+    Nombre_del_Capítulo; \
+    Carácter; \
+    Idioma_Destino; \
+    Entidad; \
+    Número/Código_Registro; \
+    Observaciones_Extra\n"
+    f.write(headers)
 
 
-for x in range(0, len(container)):
-    cont = container[x]
-    info_evento = cont.text
-    index1 = info_evento.find(',                    \r\n                    \r\n                    "') + 66
-    index2 = info_evento.find('"\r\n                    En:')
-    NombreProducto = info_evento[index1:index2]
-    index1 = info_evento.find("ISBN:") + 6
-    index2 = info_evento.find("\xa0\r\n                    v.")
-    ISSN = info_evento[index1:index2]
-    index1 = info_evento.find("\xa0\r\n                    ed:") + 26
-    index2 = info_evento.find("\xa0\r\n                    ISBN:")
-    Editorial = info_evento[index1:index2]
-    index = info_evento.find('"\r\n                    En:') + 25
-    index1 = info_evento.find('\r\n                    ', index , len(info_evento)) + 22
-    index2 = info_evento.find(".\xa0\r\n                    ed:")
-    AnoEvento = info_evento[index1:index2]
-    f.write("Libros" + ";" \
-    + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
-    + ISSN.strip().replace("\r\n","") + ";" \
-    + "-" + ";" \
-    + Editorial.strip().replace("\r\n","").replace(";" , "|") + ";" \
-    + "-" + ";" \
-    + AnoEvento.strip().replace("\r\n","") + ";" \
-    + "Sin Información" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" + ";" \
-    + "-" \
-    + "\n")
-    p = 0
-f.close()
+    for x in range(0, len(container)):
+        cont = container[x]
+        info_evento = cont.text
+        index1 = info_evento.find(',                    \r\n                    \r\n                    "') + 66
+        index2 = info_evento.find('"\r\n                    En:')
+        NombreProducto = info_evento[index1:index2]
+        index1 = info_evento.find("ISBN:") + 6
+        index2 = info_evento.find("\xa0\r\n                    v.")
+        ISSN = info_evento[index1:index2]
+        index1 = info_evento.find("\xa0\r\n                    ed:") + 26
+        index2 = info_evento.find("\xa0\r\n                    ISBN:")
+        Editorial = info_evento[index1:index2]
+        index = info_evento.find('"\r\n                    En:') + 25
+        index1 = info_evento.find('\r\n                    ', index , len(info_evento)) + 22
+        index2 = info_evento.find(".\xa0\r\n                    ed:")
+        AnoEvento = info_evento[index1:index2]
+        f.write("Libros" + ";" \
+        + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
+        + ISSN.strip().replace("\r\n","") + ";" \
+        + "-" + ";" \
+        + Editorial.strip().replace("\r\n","").replace(";" , "|") + ";" \
+        + "-" + ";" \
+        + AnoEvento.strip().replace("\r\n","") + ";" \
+        + "Sin Información" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" + ";" \
+        + "-" \
+        + "\n")
+        p = 0
+    f.close()
+else:
+    print("El Docente no tiene Eventos Asociados")

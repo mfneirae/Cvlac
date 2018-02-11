@@ -1,4 +1,4 @@
-Tipo_Producto; Nombre_Producto;ISBN/ISSN; Tipo_Obra; Publicado_en; País; Año; Idioma; Volumen; Página; Nombre_del_Capítulo; Carácter; Idioma_Destino; Entidad; Número/Código_Registro; Observaciones_Extra
+Tipo_Producto;     Nombre_Producto;    ISBN/ISSN;     Tipo_Obra;     Publicado_en;     País;     Año;     Idioma;     Volumen;     Página;     Nombre_del_Capítulo;     Carácter;     Idioma_Destino;     Entidad;     Número/Código_Registro;     Observaciones_Extra
 Artículo de revista;Susceptibility of electro-explosive devices to microwave interference;0011-748X;-;Defence Science Journal;-;2013;Sin Información;63;386 a 392;-;-;-;-;-;-
 Artículo de revista;The Electromagnetic Compatibility Research Group: research questions;0120-5609;-;Ingeniería E Investigación;-;2010;Sin Información;30;208 a 226;-;-;-;-;-;-
 Artículo de revista;Uso de la Transformada de Ondeletas (Wavelet Transform) en la Reducción de Ruidos en las Señales de Campo Eléctrico producidas por Rayos;0718-0764;-;Información Tecnológica;-;2012;Sin Información;23;65 a 78;-;-;-;-;-;-

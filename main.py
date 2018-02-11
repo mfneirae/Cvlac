@@ -14,9 +14,12 @@
 #
 
 my_url = \
-'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000228958'
+'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001333865'
+
 import eventos
 import pubeven
 import pubarti
 import publib
+import pubcaplib
+
 print ("Done! :]")
