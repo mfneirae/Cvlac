@@ -30,12 +30,14 @@ for x in range(2,total):
         import pubeven
         import pubarti
         import publib
+        import pubsoft
+        import pubcaplib
         eventos.evenextract()
         pubeven.pubextract()
         pubarti.pubextract()
         publib.pubextract()
-        # pubcaplib.pubextract()
-        # pubsoft.pubextract()
+        pubcaplib.pubextract()
+        pubsoft.pubextract()
     else:
         pass
 
