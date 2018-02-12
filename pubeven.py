@@ -101,6 +101,5 @@ def pubextract():
                 + "-" + ";" \
                 + "-" \
                 + "\n")
-            p = 0
     else:
         print("El Docente no tiene Eventos Asociados")

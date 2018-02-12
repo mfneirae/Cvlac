@@ -28,12 +28,12 @@ for x in range(2,total):
     if my_url != '-':
         import eventos
         import pubeven
-        #import pubarti
+        import pubarti
+        import publib
         eventos.evenextract()
         pubeven.pubextract()
-        #pubarti.pubextract()
-        # pubarti.pubextract()
-        # publib.pubextract()
+        pubarti.pubextract()
+        publib.pubextract()
         # pubcaplib.pubextract()
         # pubsoft.pubextract()
     else:
