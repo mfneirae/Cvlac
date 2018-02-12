@@ -12,26 +12,34 @@
 # #############################################################################
 #
 #
+
 import openpyxl
 wb = openpyxl.load_workbook('./Base.xlsx')
 sheet = wb.get_sheet_by_name('Sheet1')
 total = sheet.max_row
-print(total)
+print("total: ",total)
 import init
-for x in range(2,total+1):
+init.inicio()
+for x in range(2,total):
     doc = sheet['A'+str(x)].value
     name = sheet['B'+str(x)].value
     last = sheet['C'+str(x)].value
     my_url = sheet['E'+str(x)].value
     depar = sheet['D'+str(x)].value
+    print("For en:",x)
     if my_url != '-':
         import eventos
-        import pubeven
-        import pubarti
-        import publib
-        import pubcaplib
-        import pubsoft
+        eventos.evenextract()
+        # import pubeven
+        # import pubarti
+        # import publib
+        # import pubcaplib
+        # import pubsoft
     else:
         pass
 
+f = open ("./Resultados/Eventos.csv", "a")
+for item in init.dbact:
+  f.write(item)
+f.close()
 print ("Done! :]")
