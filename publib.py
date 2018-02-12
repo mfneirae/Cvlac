@@ -12,7 +12,7 @@
 # #############################################################################
 #
 #
-from main import my_url
+from main import my_url, name, doc, last, depar
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -41,7 +41,7 @@ if all != 0:
     containerb = containers[all]
     container = containerb.findAll("blockquote")
     f = open ("./Resultados/Publicaciones.csv", "a")
-    
+
     for x in range(0, len(container)):
         cont = container[x]
         info_evento = cont.text
@@ -58,7 +58,12 @@ if all != 0:
         index1 = info_evento.find('\r\n                    ', index , len(info_evento)) + 22
         index2 = info_evento.find(".\xa0\r\n                    ed:")
         AnoEvento = info_evento[index1:index2]
-        f.write("Libros" + ";" \
+        f.write(depar + ";"\
+        + str(doc) + ";" \
+        + name + ";" \
+        + last + ";" \
+        + "-" + ";" \
+        + "Libros" + ";" \
         + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
         + ISSN.strip().replace("\r\n","") + ";" \
         + "-" + ";" \

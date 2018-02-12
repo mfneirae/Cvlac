@@ -12,7 +12,7 @@
 # #############################################################################
 #
 #
-from main import my_url
+from main import my_url, name, doc, last, depar
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -40,24 +40,6 @@ if all != 0:
     containerb = containers[all]
     container = containerb.findAll("blockquote")
     f = open ("./Resultados/Publicaciones.csv", "a")
-    headers = "Tipo_Producto; \
-    Nombre_Producto;\
-    ISBN/ISSN; \
-    Tipo_Obra; \
-    Publicado_en; \
-    País; \
-    Año; \
-    Idioma; \
-    Volumen; \
-    Página; \
-    Nombre_del_Capítulo; \
-    Carácter; \
-    Idioma_Destino; \
-    Entidad; \
-    Número/Código_Registro; \
-    Observaciones_Extra\n"
-    f.write(headers)
-
     for x in range(0, len(container)):
         cont = container[x]
         info_evento = cont.text
@@ -79,7 +61,12 @@ if all != 0:
         index1 = info_evento.find("\r\n                    p.") + 24
         index2 = info_evento.find("\r\n                    ,")
         Pag = info_evento[index1:index2]
-        f.write("Artículo de revista" + ";" \
+        f.write(depar + ";"\
+        + str(doc) + ";" \
+        + name + ";" \
+        + last + ";" \
+        + "-" + ";" \
+        + "Artículo de revista" + ";" \
         + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
         + ISSN.strip().replace("\r\n","") + ";" \
         + "-" + ";" \

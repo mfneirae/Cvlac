@@ -12,19 +12,26 @@
 # #############################################################################
 #
 #
-from openpyxl import load_workbook
-#Definitions
-my_url = \
-'http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001333865'
-wb = load_workbook('./Base.xlsx')
-
+import openpyxl
+wb = openpyxl.load_workbook('./Base.xlsx')
+sheet = wb.get_sheet_by_name('Sheet1')
+total = sheet.max_row
+print(total)
 import init
-
-import eventos
-import pubeven
-import pubarti
-import publib
-import pubcaplib
-import pubsoft
+for x in range(2,total+1):
+    doc = sheet['A'+str(x)].value
+    name = sheet['B'+str(x)].value
+    last = sheet['C'+str(x)].value
+    my_url = sheet['E'+str(x)].value
+    depar = sheet['D'+str(x)].value
+    if my_url != '-':
+        import eventos
+        import pubeven
+        import pubarti
+        import publib
+        import pubcaplib
+        import pubsoft
+    else:
+        pass
 
 print ("Done! :]")

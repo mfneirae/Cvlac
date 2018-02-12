@@ -12,7 +12,7 @@
 # #############################################################################
 #
 #
-from main import my_url
+from main import my_url, name, doc, last, depar
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -55,7 +55,12 @@ if all != 0:
         index1 = info_evento.find('\xa0\r\n                            \r\n                            ,') + 62
         index2 = index1 + 4
         AnoEvento = info_evento[index1:index2]
-        f.write("Capítulos de Libros" + ";" \
+        f.write(depar + ";"\
+        + str(doc) + ";" \
+        + name + ";" \
+        + last + ";" \
+        + "-" + ";" \
+        + "Capítulos de Libros" + ";" \
         + "-" + ";" \
         + ISSN.strip().replace("\r\n","") + ";" \
         + "-" + ";" \

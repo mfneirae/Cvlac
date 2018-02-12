@@ -28,6 +28,14 @@ The entire project is associated to the
   * Any Text Editor (I used Atom 3).
 2. Install:
   * Copy this repository to your machine.
+  * install bs4
+  ```
+    pip install bs4
+  ```  
+  * install openpyxl
+  ```
+    pip install openpyxl
+  ```  
 3. Usage:
   * Locate the CvLAC that you want to use.
   * Copy the URL.

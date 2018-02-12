@@ -13,7 +13,7 @@
 #
 #
 
-from main import my_url
+from main import my_url, name, doc, last, depar
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -53,7 +53,12 @@ if all != 0:
         index1 = info_evento.find(',\r\n                    contrato/registro:') + 41
         index2 = info_evento.find(',\r\n',index1,len(info_evento))
         Registro = info_evento[index1:index2]
-        f.write("Productos Tecnológicos" + ";" \
+        f.write(depar + ";"\
+        + str(doc) + ";" \
+        + name + ";" \
+        + last + ";" \
+        + "-" + ";" \
+        + "Productos Tecnológicos" + ";" \
         + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
         + "-" + ";" \
         + "-" + ";" \

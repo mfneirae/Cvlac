@@ -12,7 +12,7 @@
 # #############################################################################
 #
 #
-from main import my_url
+from main import my_url, name, doc, last, depar
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -68,7 +68,12 @@ if all != 0:
             Tipopub = prod[index1:index2]
             if Tipopub == "Producción bibliográfica - Trabajos en eventos (Capítulos de memoria)":
                 Tipopub = "Capítulos en Memorias de Congresos"
-            f.write(Tipopub.strip().replace("\n","") + ";" \
+            f.write(depar + ";"\
+            + str(doc) + ";" \
+            + name + ";" \
+            + last + ";" \
+            + "-" + ";" \
+            + Tipopub.strip().replace("\n","") + ";" \
             + NombreProducto.replace("\r\n","").replace("\n","").strip().replace(";" , "|") + ";" \
             + "-".replace("\n","") + ";" \
             + "-".replace("\n","") + ";" \

@@ -12,7 +12,6 @@
 # #############################################################################
 #
 #
-
 #Eventos
 f = open ("./Resultados/Actividades.csv", "w")
 headers = "Departamento; \
