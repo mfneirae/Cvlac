@@ -82,4 +82,3 @@ def evenextract():
                 + "\n")
     else:
         print("El Docente no tiene Eventos Asociados")
-    print (len(init.dbact))

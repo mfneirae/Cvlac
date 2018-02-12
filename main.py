@@ -17,7 +17,6 @@ import openpyxl
 wb = openpyxl.load_workbook('./Base.xlsx')
 sheet = wb.get_sheet_by_name('Sheet1')
 total = sheet.max_row
-print("total: ",total)
 import init
 init.inicio()
 for x in range(2,total):
@@ -26,20 +25,32 @@ for x in range(2,total):
     last = sheet['C'+str(x)].value
     my_url = sheet['E'+str(x)].value
     depar = sheet['D'+str(x)].value
-    print("For en:",x)
     if my_url != '-':
         import eventos
+        import pubeven
+        #import pubarti
         eventos.evenextract()
-        # import pubeven
-        # import pubarti
-        # import publib
-        # import pubcaplib
-        # import pubsoft
+        pubeven.pubextract()
+        #pubarti.pubextract()
+        # pubarti.pubextract()
+        # publib.pubextract()
+        # pubcaplib.pubextract()
+        # pubsoft.pubextract()
     else:
         pass
 
-f = open ("./Resultados/Eventos.csv", "a")
+f = open ("./Resultados/Eventos.csv", "w")
 for item in init.dbact:
-  f.write(item)
+    try:
+        f.write(item)
+    except UnicodeEncodeError:
+        pass
+f.close()
+f = open ("./Resultados/Publicaciones.csv", "w")
+for item in init.dbpub:
+    try:
+        f.write(item)
+    except UnicodeEncodeError:
+        pass
 f.close()
 print ("Done! :]")
