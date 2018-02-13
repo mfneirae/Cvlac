@@ -26,13 +26,13 @@ for x in range(2,total):
     my_url = sheet['E'+str(x)].value
     depar = sheet['D'+str(x)].value
     if my_url != '-':
-        import eventos
+        import Eventos
         import pubeven
         import pubarti
         import publib
         import pubsoft
         import pubcaplib
-        eventos.evenextract()
+        Eventos.evenextract()
         pubeven.pubextract()
         pubarti.pubextract()
         publib.pubextract()

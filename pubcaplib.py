@@ -63,7 +63,7 @@ def pubextract():
             + "-" + ";" \
             + "Capítulos de Libros" + ";" \
             + "-" + ";" \
-            + ISSN.strip().replace("\r\n","") + ";" \
+            + str(ISSN.strip().replace("\r\n","")) + ";" \
             + "-" + ";" \
             + Editorial.strip().replace("\r\n","").replace(";" , "|") + ";" \
             + "-" + ";" \

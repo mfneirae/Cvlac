@@ -69,7 +69,7 @@ def pubextract():
             + "-" + ";" \
             + "Artículo de revista" + ";" \
             + NombreProducto.strip().replace("\r\n","").replace(";" , "|") + ";" \
-            + ISSN.strip().replace("\r\n","") + ";" \
+            + str(ISSN.strip().replace("\r\n","")) + ";" \
             + "-" + ";" \
             + Revista.strip().replace("\r\n","").replace(";" , "|") + ";" \
             + "-" + ";" \
