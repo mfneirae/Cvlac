@@ -56,6 +56,10 @@ def pubextract():
             index1 = info_evento.find('\xa0\r\n                            \r\n                            ,') + 62
             index2 = index1 + 4
             AnoEvento = info_evento[index1:index2]
+            if AnoEvento == '\n   ':
+                index1 = info_evento.find('\xa0\r\n                            1\r\n                            ,') + 63
+                index2 = index1 + 4
+                AnoEvento = info_evento[index1:index2]
             init.dbpub.append(depar + ";"\
             + str(doc) + ";" \
             + name + ";" \
