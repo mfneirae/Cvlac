@@ -61,18 +61,14 @@ def evenextract():
             LugarEvento = info_evento[index1:index2]
             b_productos = cont.findAll("td")
             productos = b_productos[1].findAll("li")
-            for y in range(0, len(productos)):
-                prod = productos[y].text
-                index1 = prod.find("Nombre del producto:") + 20
-                index2 = prod.find("Tipo de producto:")
-                NombreProducto = prod[index1:index2]
+            if len(productos) == 0:
                 init.dbact.append(depar + ";"\
                 + str(doc) + ";" \
                 + name + ";" \
                 + last + ";" \
                 + "-" + ";" \
                 + TipoEvento.strip() + ";" \
-                + NombreProducto.strip().replace(";" , "|").replace("\r\n","") + ";" \
+                + "-" + ";" \
                 + NombreEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
                 + AnoEvento.strip() + ";" \
                 + "-" + ";" \
@@ -80,5 +76,25 @@ def evenextract():
                 + "Sin Información" + ";" \
                 + "-" \
                 + "\n")
+            else:
+                for y in range(0, len(productos)):
+                    prod = productos[y].text
+                    index1 = prod.find("Nombre del producto:") + 20
+                    index2 = prod.find("Tipo de producto:")
+                    NombreProducto = prod[index1:index2]
+                    init.dbact.append(depar + ";"\
+                    + str(doc) + ";" \
+                    + name + ";" \
+                    + last + ";" \
+                    + "-" + ";" \
+                    + TipoEvento.strip() + ";" \
+                    + NombreProducto.strip().replace(";" , "|").replace("\r\n","") + ";" \
+                    + NombreEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
+                    + AnoEvento.strip() + ";" \
+                    + "-" + ";" \
+                    + LugarEvento.strip().replace(";" , "|").replace("\r\n","") + ";" \
+                    + "Sin Información" + ";" \
+                    + "-" \
+                    + "\n")
     else:
         print("El Docente no tiene Eventos Asociados")
